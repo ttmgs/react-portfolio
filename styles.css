@@ -1,9 +1,18 @@
+
+
 .img-fluid {
     width: 350px;
     height: 350px;
 }
 
+
+
 body {
-    background-image: url("images/ignasi_pattern_s.png");
-    
-   }
+  background-image: url(images/sudann.jpg) 
+}
+
+
+footer {
+    position: absolute;
+    font: black;
+}
