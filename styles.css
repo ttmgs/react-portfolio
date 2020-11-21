@@ -13,8 +13,8 @@ body {
 
 
 footer {
-    position: absolute;
-    font: black;
+    color: black;
+    position: fixed;
 }
 
 p {
@@ -47,6 +47,8 @@ p {
 #my-icons {
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.904);
     padding: 10px 0;
+    position: fixed; bottom:
 }
+
