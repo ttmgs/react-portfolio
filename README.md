@@ -4,4 +4,4 @@ Hello, this is my student porfolio website, this website gives you access to my 
 
 ## Link
 
-{https://mtiea.github.io/Student-Portfolio/}(https://mtiea.github.io/Student-Portfolio/)
+https://mtiea.github.io/Student-Portfolio/
