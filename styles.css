@@ -25,10 +25,7 @@ p {
     background: #125688;
     color: white;
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+   
 }
 
 
@@ -36,20 +33,20 @@ p {
     background: #007bb5;
     color: white;
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+
+    
 }
 
 .fa-github {
     background: #007bb5;
     color: white;
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
+  
+}
+
+#my-icons {
+    width: 100%;
     text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
 }
