@@ -4,7 +4,10 @@ import Aboutpage from "./components /Aboutme/about";
 
 function App() {
   return (
+
+ <div className="aboutme"> 
     <Aboutpage />
+    </div>    
   )
 }
 

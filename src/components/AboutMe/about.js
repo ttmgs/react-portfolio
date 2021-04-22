@@ -4,6 +4,7 @@ import "./styles.css"
 
 function Aboutpage() {
   return (
+    
     <div className="aboutme">
       
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
