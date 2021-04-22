@@ -1,5 +1,5 @@
 import React from "react";
-import 
+
 
 
 function Contact() {
@@ -7,7 +7,7 @@ function Contact() {
   <div className="contact">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-    <a class="navbar-brand" href="index.html" id="logo"><bold>MAGDI TIEA</a></bold>
+    <a class="navbar-brand" href="index.html" id="logo"><bold>MAGDI TIEA</bold></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
       aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,16 +40,17 @@ function Contact() {
             <label for="name" class="col-sm-2 control-label">Name</label>
             <div class="col-sm-10">
               <input type="email" class="form-control" id="name" placeholder="Name">
-            {">"} 
-            </div>
+        
+            </ input>
 
           </div>
-          <div class="form-group">
-            <label for="email" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-10">
+<div class="form-group">
+   <label for="email" class="col-sm-2 control-label">Email</label>
+       <div class="col-sm-10">
               <input type="password" class="form-control" id="email" placeholder="Email">
             <input/>
-          </div>
+         </div>
+
           <div class="form-group">
             <label class="col-sm-2 control-label" for="msg">Message</label>
             <div class="col-sm-10">

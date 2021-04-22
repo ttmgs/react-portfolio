@@ -1,5 +1,6 @@
 import React from "react";
-import Aboutpage from "/Users/magditiea/Desktop/Student-Portfolio/app/src/components/AboutMe/about.js"
+import Aboutpage from "./components /Aboutme/about";
+
 
 function App() {
   return (
