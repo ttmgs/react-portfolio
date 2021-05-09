@@ -24,7 +24,9 @@ function Aboutpage() {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">
+                <a class="nav-link active" href="index.html" button onClick={indexPage} />
+                
+                </li>
                   Contact
                 </a>
               </li>

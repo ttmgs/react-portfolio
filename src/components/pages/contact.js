@@ -5,7 +5,8 @@ import React from "react";
 function Contact() {
   return (
   <div className="contact">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     {/* <!-- Brand and toggle get grouped for better mobile display --> */}
     <a class="navbar-brand" href="index.html" id="logo"><bold>MAGDI TIEA</bold></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -27,13 +28,15 @@ function Contact() {
       </ul>
     </div>
   </nav>
-      {/* // <!-- End of navbar --> */}
+
+       {/* <!-- End of navbar --> */}
+  
 
   {/* //  <!-- Start of container --> */}
-  <main class="container">
-    <section class="row">
-      <div class="col-md-8">
-        <form class="block form-horizontal">
+  <main class="container"></main>
+    <section class="row"></section>
+      <div class="col-md-8"></div>
+        <form class="block form-horizontal"></form>
           <h1 class="block-header">Connect with me</h1>
           <hr />
           <div class="form-group">
@@ -44,12 +47,11 @@ function Contact() {
             </ input>
 
           </div>
-<div class="form-group">
+<div class="form-group"><div/>
    <label for="email" class="col-sm-2 control-label">Email</label>
        <div class="col-sm-10">
-              <input type="password" class="form-control" id="email" placeholder="Email">
-            <input/>
-         </div>
+              <input type="password" class="form-control" id="email" placeholder="Email"/>
+            
 
           <div class="form-group">
             <label class="col-sm-2 control-label" for="msg">Message</label>
@@ -58,15 +60,16 @@ function Contact() {
             </div>
           </div>
           <button type="button" class="btn btn-danger">Send</button>
-        </form>
+        </div>
       </div>
-    </section>
-  </main>
+    </div>
+  {/* </main> */}
   {/* <!-- End of container --> */}
 
 
-  <!-- Start of footer -->
-  <footer class="footer">
+  {/* <!-- Start of footer --> */}
+  <footer class="footer"><footer/>  
+
     <div class="two-toned-footer-color"></div>
     <p class="text-muted text-muted-footer text-center">
       &copy; Copyright
@@ -74,7 +77,10 @@ function Contact() {
   </footer>
   {/* <!-- End of footer --></section> */}
 
-  </div>  
+
+  </div> 
   )
 }
+
+export default Contact;
 
