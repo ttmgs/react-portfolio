@@ -1,21 +1,24 @@
 import React from "react";
-import Aboutpage from "./components/AboutMe/about";
-import Contact from "./components/ContactMe/contact"
-import Portfolio from "./components/Portfolio/portfolio"
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import history from "./components/history/history";
+import Nav from "./components/navbar/Nav"
+import Portfolio from "./components/pages/portfolio";
+import Contact from "./components/pages/contact";
+import About from "./components/pages/about";
+import "./components/styles/portfolio.css"
+
+
 
 function App() {
   return (
-    <div className="pages">
-    {/* <Aboutpage /> */}
+    // <Router history={history}>
+      // <switch>
+<Router>      
+  
+<Nav />
+<Route exact path="/about" component={About}   /> 
 
-
-
-    {/* {/* <Contact /> */}
-
-<Portfolio /> 
-
-
-    </div>
+  </Router>
   )};
 
 export default App;

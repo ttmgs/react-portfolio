@@ -1,42 +1,31 @@
 import React from "react";
+import me from "../images/me.png"
+import "../styles/portfolio.css"
 
 
-function Portfolio() {
+
+
+const Portfolio = () => {
   return (
-    <div className="portfolio">
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-    <a class="navbar-brand" href="index.html" id="logo"><bold>MAGDI TIEA </bold></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">About Me</a>
-        </li>
-      </ul>
+   
+
+
+
+    <div class="container">
+    <div class="image">
+      <img src={me} alt="yo"/>
     </div>
-  </nav>
-      {/* <!-- End of navbar --> */}
-<h4>Here are some of the projects ive been working on</h4>
+    <div class="text"/>
+      <h3>Hello, my names Magdi Tiea </h3>
+      <p>a full-stack web developer from windsor, on</p>
+    <link href="https://github.com/kirsralk/Group4-Project2"/>
+    </div>
 
 
 
 
 
-
-
-
-    </div>  
+    
   )
 }
 
