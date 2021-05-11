@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/portfolio.css";
+import "../styles/index.css";
 import me from "../images/me.png"
 
 const About = () => {
