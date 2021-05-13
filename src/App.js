@@ -5,7 +5,7 @@ import Nav from "./components/navbar/Nav"
 import Portfolio from "./components/pages/portfolio";
 import Contact from "./components/pages/contact";
 import About from "./components/pages/about";
-import "./components/styles/about.css"
+
 
 
 
