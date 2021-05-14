@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Github-Student-Portfolio/static/css/main.466bba51.chunk.css",
-    "main.js": "/Github-Student-Portfolio/static/js/main.ee172b09.chunk.js",
-    "main.js.map": "/Github-Student-Portfolio/static/js/main.ee172b09.chunk.js.map",
-    "runtime-main.js": "/Github-Student-Portfolio/static/js/runtime-main.651a38b3.js",
-    "runtime-main.js.map": "/Github-Student-Portfolio/static/js/runtime-main.651a38b3.js.map",
-    "static/css/2.65af8127.chunk.css": "/Github-Student-Portfolio/static/css/2.65af8127.chunk.css",
-    "static/js/2.ca02e466.chunk.js": "/Github-Student-Portfolio/static/js/2.ca02e466.chunk.js",
-    "static/js/2.ca02e466.chunk.js.map": "/Github-Student-Portfolio/static/js/2.ca02e466.chunk.js.map",
-    "index.html": "/Github-Student-Portfolio/index.html",
-    "static/css/2.65af8127.chunk.css.map": "/Github-Student-Portfolio/static/css/2.65af8127.chunk.css.map",
-    "static/css/main.466bba51.chunk.css.map": "/Github-Student-Portfolio/static/css/main.466bba51.chunk.css.map",
-    "static/js/2.ca02e466.chunk.js.LICENSE.txt": "/Github-Student-Portfolio/static/js/2.ca02e466.chunk.js.LICENSE.txt",
-    "static/media/me.1cb97001.png": "/Github-Student-Portfolio/static/media/me.1cb97001.png"
+    "main.css": "//ttmgs.github.io/Github-Student-Portfolio/static/css/main.bacdc60f.chunk.css",
+    "main.js": "//ttmgs.github.io/Github-Student-Portfolio/static/js/main.00fc97ac.chunk.js",
+    "main.js.map": "//ttmgs.github.io/Github-Student-Portfolio/static/js/main.00fc97ac.chunk.js.map",
+    "runtime-main.js": "//ttmgs.github.io/Github-Student-Portfolio/static/js/runtime-main.30d0a2ed.js",
+    "runtime-main.js.map": "//ttmgs.github.io/Github-Student-Portfolio/static/js/runtime-main.30d0a2ed.js.map",
+    "static/css/2.800be05e.chunk.css": "//ttmgs.github.io/Github-Student-Portfolio/static/css/2.800be05e.chunk.css",
+    "static/js/2.195d692e.chunk.js": "//ttmgs.github.io/Github-Student-Portfolio/static/js/2.195d692e.chunk.js",
+    "static/js/2.195d692e.chunk.js.map": "//ttmgs.github.io/Github-Student-Portfolio/static/js/2.195d692e.chunk.js.map",
+    "index.html": "//ttmgs.github.io/Github-Student-Portfolio/index.html",
+    "static/css/2.800be05e.chunk.css.map": "//ttmgs.github.io/Github-Student-Portfolio/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.bacdc60f.chunk.css.map": "//ttmgs.github.io/Github-Student-Portfolio/static/css/main.bacdc60f.chunk.css.map",
+    "static/js/2.195d692e.chunk.js.LICENSE.txt": "//ttmgs.github.io/Github-Student-Portfolio/static/js/2.195d692e.chunk.js.LICENSE.txt",
+    "static/media/me.1cb97001.png": "//ttmgs.github.io/Github-Student-Portfolio/static/media/me.1cb97001.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.651a38b3.js",
-    "static/css/2.65af8127.chunk.css",
-    "static/js/2.ca02e466.chunk.js",
-    "static/css/main.466bba51.chunk.css",
-    "static/js/main.ee172b09.chunk.js"
+    "static/js/runtime-main.30d0a2ed.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.195d692e.chunk.js",
+    "static/css/main.bacdc60f.chunk.css",
+    "static/js/main.00fc97ac.chunk.js"
   ]
 }
