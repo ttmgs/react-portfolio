@@ -2,7 +2,7 @@
   "name": "app",
   "version": "v14.15.4",
   "private": true,
-  "homepage": "//http://ttmgs.github.io/Github-Student-Portfolio",
+  "homepage": "http://ttmgs.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
