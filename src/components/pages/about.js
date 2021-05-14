@@ -1,43 +1,48 @@
 import React from "react";
 import "../styles/about.css";
-import me from "../images/me.png"
+import me from "../images/me.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
-  return(
-
-
+  return (
     <div class="card">
-      <img src={me} alt="John"/>
+      <img src={me} alt="John" />
       <h1>Magdi Tiea</h1>
-      <p class="title">CEO & Founder, Example</p>
-      <p>Harvard University</p>
+      <p class="title">Future Full-Stack Developer</p>
+      <p>Windsor Ontario</p>
       <div>
-        <a href="#"><i class="fa fa-dribbble"></i></a> 
-        <a href="#"><i class="fa fa-twitter"></i></a>  
-        <a href="#"><i class="fa fa-linkedin"></i></a>  
-        <a href="#"><i class="fa fa-facebook"></i></a> 
+        <a href="https://www.instagram.com/">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://github.com/ttmgs?tab=repositories">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit">
+          <i class="fa fa-linkedin"></i>
+        </a>
       </div>
-      <p><button>Contact</button></p>
+      <p>
+        <button>
+          <Link
+            to="/contact"
+      
+          >
+            Contact
+          </Link>
+        </button>
+      </p>
     </div>
-    
-  )
+  );
 };
 
 export default About;
 
-
-
-
-
-
-
-
- // <div class="container">
-    // <div class="image">
-    //   <img src={me} alt="yo"/>
-    // </div>
-    // <div class="text"/>
-    //   <h3>I'm Full-Stack Website Developer Magdi Tiea </h3>
-    //   <p>a full-stack web developer from windsor, on</p>
-    // <link href="https://github.com/kirsralk/Group4-Project2"/>
-    // </div>
+// <div class="container">
+// <div class="image">
+//   <img src={me} alt="yo"/>
+// </div>
+// <div class="text"/>
+//   <h3>I'm Full-Stack Website Developer Magdi Tiea </h3>
+//   <p>a full-stack web developer from windsor, on</p>
+// <link href="https://github.com/kirsralk/Group4-Project2"/>
+// </div>

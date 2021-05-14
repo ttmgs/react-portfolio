@@ -3,46 +3,34 @@ import "../styles/contact.css";
 
 const Contact = () => {
   return (
-    <div>
-      <main class="container"></main>
-      <section class="row"></section>
-      <div class="col-md-8"></div>
-      <form class="block form-horizontal"></form>
-      <h1 class="block-header">Connect with me</h1>
-      <hr />
-      <div class="form-group">
-        <label for="name" class="col-sm-2 control-label">
-          Name
-        </label>
-        <div class="col-sm-10">
-          <input
-            type="email"
-            class="form-control"
-            id="name"
-            placeholder="Name"
-          ></input>
-        </div>
-        <div class="form-group">
-          <div />
-          <label for="email" class="col-sm-2 control-label">
-            Email
-          </label>
-          <div class="col-sm-10">
-            <input
-              type="password"
-              class="form-control"
-              id="email"
-              placeholder="Email"
-            />
 
-            
-           
-          </div>
+    <div>
+
+    <h3>Contact Form</h3>
+    <div class="container"/>
+      <form action="/action_page.php"/>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    
+        <input type="submit" value="Submit"/>
         </div>
-      </div>
-      {/* </main> */}
-      {/* <!-- End of container --> */}
-    </div>
+
+      
+      
+
   );
 };
 
