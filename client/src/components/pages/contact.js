@@ -1,7 +1,7 @@
 import React from "react";
 // import { useState } from "react";
 import "../styles/contact.css";
-import $ from 'jquery';
+// import $ from 'jquery';
 
 
 const Contact = () => {
