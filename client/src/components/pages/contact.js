@@ -1,66 +1,86 @@
 import React from "react";
-// import { useState } from "react";
+import { useState } from "react";
 import "../styles/contact.css";
-// import $ from 'jquery';
 
 
 const Contact = () => {
 
-// const { firstName, setFirstName } = useState("");
-// const { lastName, setLastName } = useState("");
-// const { textArea, setTextArea } = useState("");
-// const { country, setCountry } = useState("");
 
 
-// on submit we disable the browsers behaiver(preventDefault) 
-  // function formSubmit() {
-  //   document.getElementById('#form').onClick;{('submit', (e) => {
-  //     e.preventDefault();
+  const [mailerState, setMailerState] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
 
-  //     const firstName = document.getElementById('#fname').value().trim();
-  //     const lastName = document.getElementById('#lastName').value().trim();
-  //     const country = document.getElementById('#country').value().trim();
+  function handleStateChange(e) {
+    setMailerState((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  }
 
-  //    const data = {
-  //      firstName,
-  //      lastName,
-  //      country
-  //    }
-
-  //    //  sending data to the server (/email)
-  //    $.post('/email', data, '')
-
-  //       console.log('server recieved our data')
-  //   })}
   
+  const submitEmail = async (e) => {
+    e.preventDefault();
+    console.log({ mailerState });
+    const response = await fetch("http://localhost:8080/send", {
+      method: 'POST',
+      headers: {
+        "Content-type": "application/json",
+      },
+      body: JSON.stringify({ mailerState }),
+    })
+    .then((res) => res.json()) 
+    .then(async (res) => {
+      const resData = await res;
+      console.log(resData);
+      if (resData.status === "success") {
+        alert("Message Sent");
+      } else if (resData.status === "fail") {
+        alert("Message failed to send");
+      }
+      setMailerState({
+        email: "",
+        name: "",
+        message: "",
+      });
+    });
+  };
+
+
+
+
+
+
+
+
 
   return (
 
     <div>
 
-    <h3>Send me a message</h3>
-    <form id="form">
+    <h3>Connect with Me</h3>
     <div class="container"/>
-      <form action="/action_page.php"/>
+      <form onSubmit={submitEmail}>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+        <input type="text" id="name" name="name" onChange={handleStateChange} value={mailerState.name} placeholder="Your name.."/>
     
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" onChange={handleStateChange} value={mailerState.email} placeholder="Your email.." />
     
-        <label for="country">Country</label>
+        {/* <label for="country">Country</label>
         <select id="country" name="country"> 
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
-        </select>
+        </select> */}
     
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        <label for="message">Message</label>
+        <textarea id="subject" name="message" type="text" onChange={handleStateChange} value={mailerState.message} placeholder="Write something.."></textarea>
     
-        <button type="submit" value="Submit">Send Email</button>
+        <button>Send Email</button>
         </form>
-
         </div>
         
       

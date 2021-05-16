@@ -1,9 +1,10 @@
 const express = require('express');
 const nodemailer = require('nodemailer')
+const cors = require('cors');
+require('dotenv').config()
 
 
-
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 8080;
 const app = express();
 
 
@@ -12,10 +13,6 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json());
 
 
-
-
-// setting up nodemailer
-require('dotenv').config()
 
 // connecting to the main
 let transporter = nodemailer.createTransport({
@@ -38,21 +35,28 @@ transporter.verify((err, success) => {
 });
 
 // everything you need to send to the user
+app.post("/send", (req, res) => {
 let mailOptions = {
-  from: 'magditiea@gmail.com',
-  to: 'balltt38@gmail.com',
-  subject: 'Testing',
-  text: 'it works'
-}
+  from: `${req.body.mailerState.email}`,
+  to: process.env.email,
+  subject: `${res.body.mailerState.email}`,
+  text: `${req.body.mailerState.message}`
+};
 
 
 // send actual email (sending mailoptions through a transporter sendmail method)
 transporter.sendMail(mailOptions, function(err, data) {
   if(err) {
-    console.log('error occurs' + err)
+   res.json({
+     status: "fail",
+   });
   } else {
-    console.log('email successfully sent')
+    console.log("== Message Sent ==");
+    res.json({
+      status: "success",
+    });
   }
+});
 });
 
 
