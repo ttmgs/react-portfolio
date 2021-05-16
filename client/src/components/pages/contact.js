@@ -1,66 +1,68 @@
 import React from "react";
-import { useState } from "react";
-import axios from "axios";
+// import { useState } from "react";
 import "../styles/contact.css";
+import $ from 'jquery';
+
 
 const Contact = () => {
 
-const { firstName, setFirstName } = useState("");
-const { lastName, setLastName } = useState("");
-const { textArea, setTextArea } = useState("");
-const { country, setCountry } = useState("");
+// const { firstName, setFirstName } = useState("");
+// const { lastName, setLastName } = useState("");
+// const { textArea, setTextArea } = useState("");
+// const { country, setCountry } = useState("");
 
 
-const handleClick = (e) => {
-  e.preventDefault();
+// on submit we disable the browsers behaiver(preventDefault) 
+  // function formSubmit() {
+  //   document.getElementById('#form').onClick;{('submit', (e) => {
+  //     e.preventDefault();
 
-  if(e.target.id === "fname") {
-    setFirstName(e.target.value)
-  }  else {
-    lastName(e.target.value)
-  }
-}
+  //     const firstName = document.getElementById('#fname').value().trim();
+  //     const lastName = document.getElementById('#lastName').value().trim();
+  //     const country = document.getElementById('#country').value().trim();
 
-const handleSubmit = (e) => {
-  e.preventDefault();
+  //    const data = {
+  //      firstName,
+  //      lastName,
+  //      country
+  //    }
 
-  const dataToSubmit = {
-    firstName,
-    lastName,
-    country,
-    textArea,
-  }
+  //    //  sending data to the server (/email)
+  //    $.post('/email', data, '')
 
-  axios.post("/api/sendMail", dataToSubmit)
-};
-
+  //       console.log('server recieved our data')
+  //   })}
+  
 
   return (
 
     <div>
 
     <h3>Send me a message</h3>
+    <form id="form">
     <div class="container"/>
       <form action="/action_page.php"/>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." value={firstName} onChange={handleClick}/>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
     
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." value={lastName} onChange={handleClick}/>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
     
         <label for="country">Country</label>
-        <select id="country" name="country" value={country}  onChange={handleClick}> 
+        <select id="country" name="country"> 
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
           <option value="usa">USA</option>
         </select>
     
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." value={textArea} onChange={handleClick}></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
     
-        <button type="submit" value="Submit" onClick={handleSubmit}>Send Email</button>
-        </div>
+        <button type="submit" value="Submit">Send Email</button>
+        </form>
 
+        </div>
+        
       
       
 

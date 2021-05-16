@@ -20,10 +20,12 @@ let mailOptions = {
 
 
 // send actual email
-transporter.sendMail(mailOptions, function(err, data) {
+const mail = transporter.sendMail(mailOptions, function(err, data) {
   if(err) {
     console.log('errir occurs')
   } else {
     console.log('email successfully sent')
   }
 });
+
+module.exports = { transporter, mailOptions, mail}

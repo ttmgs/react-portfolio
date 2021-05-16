@@ -27,7 +27,7 @@ const About = () => {
             to="/contact"
       
           >
-            Contact
+            Send me a message
           </Link>
         </button>
       </p>
