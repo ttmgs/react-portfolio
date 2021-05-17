@@ -56,7 +56,7 @@ const Contact = () => {
 
     <div>
 
-    <h3>Connect with Me</h3>
+    {/* <h3>Connect with Me</h3> */}
     <div class="container"/>
       <form onSubmit={submitEmail}>
         <label>First Name</label>
@@ -65,17 +65,10 @@ const Contact = () => {
         <label>Email</label>
         <input type="text" id="email" name="email" onChange={handleStateChange} value={mailerState.email} placeholder="Your email.." />
     
-        {/* <label for="country">Country</label>
-        <select id="country" name="country"> 
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select> */}
-    
         <label>Message</label>
         <textarea id="subject" name="message" type="text" onChange={handleStateChange} value={mailerState.message} placeholder="Write something.."></textarea>
     
-        <button>Send Email</button>
+        <button>Send Message</button>
         </form>
         </div>
         

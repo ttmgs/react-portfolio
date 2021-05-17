@@ -3,27 +3,13 @@ import "../styles/portfolio.css"
 
 
 
-
 const Portfolio = () => {
-  return (
-   
+  return(
+<div>
+  <h1 id="center">COMING SOON</h1>
+</div>
 
 
-
-    <div class="container">
-    <div class="image">
-    </div>
-    <div class="text"/>
-      <h3>Here are some of my projects </h3>
- 
-    <link href="https://github.com/kirsralk/Group4-Project2"/>
-    </div>
-
-
-
-
-
-    
   )
 }
 
