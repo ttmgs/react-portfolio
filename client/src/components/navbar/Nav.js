@@ -8,17 +8,16 @@ const location = useLocation();
   return(
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="/">
+  <a className="navbar-brand" href="/home">
   <Link
             to="/about"
             className={
-              location.pathname === "/"
+              location.pathname === "/home"
                 ? "nav-link active"
                 : "nav-link"
             }
           >
           Magdi Tiea</Link></a>
-
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
