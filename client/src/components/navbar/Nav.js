@@ -8,11 +8,11 @@ const location = useLocation();
   return(
 
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="/home">
+  <a className="navbar-brand" href="/">
   <Link
-            to="/home"
+            to="/about"
             className={
-              location.pathname === "/home"
+              location.pathname === "/"
                 ? "nav-link active"
                 : "nav-link"
             }
