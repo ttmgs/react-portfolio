@@ -9,7 +9,7 @@ const About = () => {
     <div class="card">
       <img class="centerMe" id="me" src={me} alt="John" />
       <h1>Magdi Tiea</h1>
-      <p class="title" id="aboutPara">Future Full-Stack Developer</p>
+      <p class="title">Future Full-Stack Developer from Windsor, ON</p>
       <p>Congrats youve made it to my portfolio. <br></br>
        Cell: (226)- 759 -5872 <br></br>
       

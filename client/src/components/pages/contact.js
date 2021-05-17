@@ -56,7 +56,7 @@ const Contact = () => {
 
     <div>
 
-    {/* <h3>Connect with Me</h3> */}
+    <h3>Message Me</h3>
     <div class="container"/>
       <form onSubmit={submitEmail}>
         <label>First Name</label>
