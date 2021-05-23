@@ -2,4 +2,4 @@
 
 ## Deployed Link
 
-https://mtiea.github.io/Student-Portfolio/
+https://ttmgs.github.io/react-portfolio/
