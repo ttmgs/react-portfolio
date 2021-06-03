@@ -12,6 +12,3 @@ This is my portfolio, here you will learn a little more about my coding backgrou
 
 
 
-## Deployed Link
-
-https://ttmgs.github.io/react-portfolio/
