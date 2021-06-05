@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/portfolio.css"
+import "../styles/projects.css"
 import logo from "../images/city.jpg";
 
 
-const Portfolio = () => {
+const Projects = () => {
   return(
     <div>
-<div class="container-fluid" style={{ backgroundImage: `url(${logo})` }}>
+<div class="container-fluid">
 
   <h2>CURRENTLY CODING✓.. ADDING PROJECTS SOON</h2>
 </div>
@@ -15,4 +15,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio;
+export default Projects;

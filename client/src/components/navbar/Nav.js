@@ -1,31 +1,44 @@
 import React from "react";
-import { Link, useLocation } from 'react-router-dom'
+import "../styles/nav.css";
+import jQuery from "jquery";
+import $ from "jquery";
+import { Link, useLocation } from 'react-router-dom';
+
 
 function Nav() {
+  const location = useLocation();
 
-const location = useLocation();
+
+
+//menu toggle
+function tog(){
+  $('.nav-toggle').on("click", function(e){
+      e.preventDefault();
+      $('.nav-toggle').toggleClass('active');
+      $('.nav-menu').toggleClass('active');
+      $('.nav-overlay').toggleClass('active');
+  })
+  $('.nav-overlay').on("click", function(e){
+      e.preventDefault();
+      $('.nav-toggle').toggleClass('active');
+      $('.nav-menu').toggleClass('active');
+      $('.nav-overlay').toggleClass('active');
+  })
+// eslint-disable-next-line no-unused-expressions
+}(jQuery);
+
+
+
 
   return(
+    <div>
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="/react-portfolio">
-  <Link
-            to="/about"
-            className={
-              location.pathname === "/about"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-          Magdi Tiea</Link></a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarText">
-    <ul className="navbar-nav mr-auto">
+<div class="nav-overlay"></div>
 
-      <li className="nav-item active"/>
-        <a className="nav-link" href="/about">
+<nav class="navigation">
+			<div class="nav-logo">Your Logo</div>
+			<ul class="nav-menu" onClick={tog}>
+				<li><a href="/about">
         <Link
             to="/about"
             className={
@@ -33,43 +46,38 @@ const location = useLocation();
                 ? "nav-link active"
                 : "nav-link"
             }
-          >
-          About </Link></a>
-      
+          >Home</Link></a></li>
+          
+				<li><a href="/projects">
+        <Link
+            to="/projects"
+            className={
+              location.pathname === "/projects"
+                ? "nav-link active"
+                : "nav-link"
+            }
+          >Projects</Link></a></li>
 
-      <li class="nav-item">
-      <Link
+				<li><a href="/contact">
+        <Link
             to="/contact"
             className={
               location.pathname === "/contact"
                 ? "nav-link active"
                 : "nav-link"
             }
-          >
-          Contact </Link>
-      </li>
-
-      <li class="nav-item">
-        <li className="nav-item"/>
-        <Link
-            to="/portfolio"
-            className={
-              location.pathname === "/portfolio"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >
-          Portfolio </Link>
-      </li>
-    </ul>
- 
-  </div> 
-</nav>
+          >Contact</Link></a></li>
+			</ul>
+			<div class="nav-toggle" onClick={tog}>
+				<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+			</div>
+		</nav>
 
 
 
-
-
+</div>
 
 
   )
