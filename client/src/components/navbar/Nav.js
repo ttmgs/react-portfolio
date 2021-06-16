@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useReducer } from "react";
+import { Link, useLocation } from 'react-router-dom';
 import "../styles/nav.css";
 import jQuery from "jquery";
 import $ from "jquery";
-import { Link, useLocation } from 'react-router-dom';
 
 
 function Nav() {
-  const location = useLocation();
 
 
 
@@ -36,37 +35,17 @@ function tog(){
 <div class="nav-overlay"></div>
 
 <nav class="navigation">
-			<div class="nav-logo">Your Logo</div>
+			<div class="nav-logo">Magdi Tiea</div>
 			<ul class="nav-menu" onClick={tog}>
 				<li><a href="/about">
-        <Link
-            to="/about"
-            className={
-              location.pathname === "/about"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >Home</Link></a></li>
+      Home</a></li>
           
 				<li><a href="/projects">
-        <Link
-            to="/projects"
-            className={
-              location.pathname === "/projects"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >Projects</Link></a></li>
+   
+       Projects</a></li>
 
 				<li><a href="/contact">
-        <Link
-            to="/contact"
-            className={
-              location.pathname === "/contact"
-                ? "nav-link active"
-                : "nav-link"
-            }
-          >Contact</Link></a></li>
+      Contact</a></li>
 			</ul>
 			<div class="nav-toggle" onClick={tog}>
 				<span class="icon-bar"></span>

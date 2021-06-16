@@ -1,7 +1,7 @@
-img {
+/* img {
   width: 250px;
   height: 250px;
-}
+} */
 
 
 #name {
@@ -14,9 +14,9 @@ img {
 }
 
 .topContainer {
-height: fit-content;
-/* padding: 30px; */
-text-align: center
+padding: 30px;
+text-align: center;
+background-color: rgb(192, 186, 212)
 }
 
 
@@ -53,4 +53,32 @@ text-align: center
 @keyframes animated-cursor{
   from{border-right-color: rgba(0,255,0,.75);}
   to{border-right-color: transparent;}
+}
+
+
+/* middle container spacing */
+.middle-container {
+  margin: 0;
+  padding: 70px;
+  text-align: center;
+
+}
+
+/* table cell spacing */
+td {
+  padding: 15px;
+}
+
+/* skills container */
+
+
+
+
+.bottom-container {
+  text-align: center;
+}
+
+
+h2 {
+  font-family: cursive;
 }
