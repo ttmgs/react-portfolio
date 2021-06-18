@@ -54,7 +54,7 @@ function tog(){
           
 
 				<li> <Link
-            to="/react-portfolio/projects/"
+            to="/projects"
             className={
             location.pathname === "/projects" ? "nav-link active" : "nav-link"
             }
