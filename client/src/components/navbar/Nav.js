@@ -54,9 +54,9 @@ function tog(){
           
 
 				<li> <Link
-            to="/react-portfolio/projects"
+            to="/react-portfolio/projects/"
             className={
-            location.pathname === "/react-portfolio/projects" ? "nav-link active" : "nav-link"
+            location.pathname === "/projects" ? "nav-link active" : "nav-link"
             }
           >
         
@@ -64,9 +64,9 @@ function tog(){
 
 
 				<li> <Link
-            to="/react-portfolio/contact"
+            to="/contact"
             className={
-            location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"
+            location.pathname === "/contact" ? "nav-link active" : "nav-link"
             }
           >
        
