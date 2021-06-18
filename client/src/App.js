@@ -10,9 +10,11 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
+
+
 <div>
-  <Nav />
 <Router>      
+<Nav />
 <Route exact path="/react-portfolio" component={About}  />
 <Route exact path="/" component={About}  />
 <Route exact path="/about" component={About}   /> 
