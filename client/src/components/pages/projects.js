@@ -41,6 +41,7 @@ const Projects = () => {
                 <strong>Technologies Used:</strong> MySQL, Node.js, Express,
                 Sequelize and Handlebars
               </p>
+              <br></br>
               <p style={{fontFamily: "serif"}}>
                This application combines MySQL database
                 and Pokemon together. Many more implementaions to come in the future!
@@ -78,6 +79,7 @@ const Projects = () => {
               <p>
                 <strong>Technologies Used:</strong> Javascript, HTML and CSS
               </p>
+              <br></br>
               <p style={{fontFamily: "serif"}}> My Travel Planner allows you to
                 plan the most important aspects of your trips in a centralized
                 location.
@@ -122,6 +124,7 @@ const Projects = () => {
               <p>
                 <strong>Technologies Used:</strong> Javascript, CSS and HTML
               </p>
+              <br></br>
               <p style={{fontFamily: "serif"}}>
                Choose between 3 character types
                 and this app will generate a random password for you
@@ -161,6 +164,7 @@ const Projects = () => {
                 <strong>Technologies Used: </strong>Node.js, React, JQuery and
                 CSS
               </p>
+              <br></br>
               <p style={{fontFamily: "serif"}}>
               This live search allows you to
                 type in a name and as you type letter by letter the employee
@@ -195,6 +199,7 @@ const Projects = () => {
               <p>
                 <strong>Technologies Used: </strong>HTML, CSS and Javascript
               </p>
+              <br></br>
               <p style={{fontFamily: "serif"}}>
                This app is a memory game which
                 you have to memorize the colors that are randomly assigned to
@@ -235,6 +240,7 @@ const Projects = () => {
               <p>
                 <strong>Technologies Used: </strong>HTML and CSS
               </p>
+              <br></br>
               <p style={{fontFamily: "serif"}}>
                This website is the very first
                 website i created for a client. Simple model website with
