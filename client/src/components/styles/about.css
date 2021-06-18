@@ -1,12 +1,7 @@
-/* img {
-  width: 250px;
-  height: 250px;
-} */
-
 
 #name {
   margin: auto;
-  width: 60%;
+  width: auto;
   /* border: 5px solid #FFFF00; */
   padding: 10px;
   text-align: center;
@@ -16,24 +11,25 @@
 .topContainer {
 padding: 30px;
 text-align: center;
-background-color: rgb(192, 186, 212)
+background-color: rgb(255, 255, 255)
 }
 
 
-
+/* typing effect */
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 
 
 #job {
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
   overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
   font-size: 20px;
   color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  right: 20px;
 }
-
-
 
 /* Animation */
 #job {
@@ -45,7 +41,7 @@ background-color: rgb(192, 186, 212)
 
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 500px;}
+  to{width: 100%;}
 }
 
 /* cursor animations */
@@ -54,6 +50,13 @@ background-color: rgb(192, 186, 212)
   from{border-right-color: rgba(0,255,0,.75);}
   to{border-right-color: transparent;}
 }
+
+
+
+
+
+
+
 
 
 /* middle container spacing */
@@ -66,7 +69,7 @@ background-color: rgb(192, 186, 212)
 
 /* table cell spacing */
 td {
-  padding: 15px;
+  padding: 10px;
 }
 
 /* skills container */
@@ -80,5 +83,17 @@ td {
 
 
 h2 {
-  font-family: cursive;
+  font-family: fantasy;
+}
+
+
+
+.education {
+  text-align: center;
+  float: right;
+}
+
+.contact-me {
+text-align: center;
+float: initial;
 }

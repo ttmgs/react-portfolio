@@ -1,5 +1,4 @@
-import React, { useReducer } from "react";
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
 import "../styles/nav.css";
 import jQuery from "jquery";
 import $ from "jquery";
@@ -35,7 +34,7 @@ function tog(){
 <div class="nav-overlay"></div>
 
 <nav class="navigation">
-			<div class="nav-logo">Magdi Tiea</div>
+			<div class="nav-logo"><a href="/about" alt="about" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></div>
 			<ul class="nav-menu" onClick={tog}>
 				<li><a href="/about">
       Home</a></li>

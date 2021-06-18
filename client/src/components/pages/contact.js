@@ -55,26 +55,18 @@ const Contact = () => {
   return (
 
     <div>
+        <header>SEND ME AN EMAIL</header>
 
-    <h3>Message Me</h3>
-    <div class="container"/>
-      <form onSubmit={submitEmail}>
-        <label>First Name</label>
-        <input type="text" id="name" name="name" onChange={handleStateChange} value={mailerState.name} placeholder="Your name.."/>
-    
-        <label>Email</label>
-        <input type="text" id="email" name="email" onChange={handleStateChange} value={mailerState.email} placeholder="Your email.." />
-    
-        <label>Message</label>
-        <textarea id="subject" name="message" type="text" onChange={handleStateChange} value={mailerState.message} placeholder="Write something.."></textarea>
-    
-        <button>Send Message</button>
-        </form>
+<form id="form" class="topBefore" onSubmit={submitEmail}>
+		
+		  <input id="name" type="text" placeholder="NAME" name="name" onChange={handleStateChange} value={mailerState.name} />
+		  <input id="email" type="text" placeholder="E-MAIL" onChange={handleStateChange} value={mailerState.email}/>
+      <textarea id="subject" name="message" type="text" onChange={handleStateChange} value={mailerState.message} placeholder="Write something.."></textarea>
+  <input id="submit" type="submit" value="GO!"/>
+  
+</form>
+
         </div>
-        
-      
-      
-
   );
 };
 
