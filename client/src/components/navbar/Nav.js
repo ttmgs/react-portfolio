@@ -34,8 +34,15 @@ function tog(){
 <div class="nav-overlay"></div>
 
 <nav class="navigation">
-			<div class="nav-logo"><a href="/about" alt="about" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></div>
+			<div class="nav-logo"> <Link
+            to="/about"
+            className={
+            location.pathname === "/about" ? "nav-link active" : "nav-link"
+            }
+          ><a href="/about" alt="about" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></Link></div>
 			<ul class="nav-menu" onClick={tog}>
+
+
 				<li> <Link
             to="/about"
             className={

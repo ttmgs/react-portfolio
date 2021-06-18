@@ -11,7 +11,7 @@ import upei from "../images/upei.png";
 import mom from "../images/8.png";
 import me from "../images/me.png";
 import mongo from "../images/mongo.png";
-import resume from "../images/resume.pdf";
+import resume from "../images/resume.PDF";
 
 
 
@@ -34,10 +34,11 @@ const About = () => {
         </div>
       </div>
       <br></br>
-<p style={{textAlign: "center"}}>📞  : (226)- 759- 5872</p>
-<p style={{textAlign: "center"}}>📩  : magditiea@gmail.com</p>
-<a class="btn line-btn-dark btn-icon btn-radius" href={resume} title="" download><button style={{textAlign: "center"}}>click to download resume</button></a>
-
+      <div id="contactme" style={{textAlign: "center"}}>
+<p style={{fontSize: "20px"}}>📞  : (226)- 759- 5872</p>
+<p style={{fontSize: "20px"}}>📩  : magditiea@gmail.com</p>
+<a class="btn line-btn-dark btn-icon btn-radius" href={resume} title="" download><button id="buttonone" style={{textAlign: "center"}}>click to download resume</button></a>
+</div>
       <br></br>
       <br></br>
       <br></br>
@@ -70,9 +71,11 @@ const About = () => {
         <br></br>
         <br></br>
         <div class="profile">
-          <p style={{ fontFamily: "monospace" }}>
+          <p style={{ fontFamily: "monospace", fontSize: "20px" }}>
             <strong>
-              Hello, my name is Magdi Tiea and I'm a Junior Developer out of Windsor, ON. I recently just gradutaed from Carleton University coding bootcamp and I'm currently taking Udemys 2021 Full-Stack Web Development Course improving my skills in mongoDB and mongoose. {" "}
+            Came into this world not knowing the answers, but trying to make a difference in peoples lives. This is my objective
+and my life goal. My mission is to teach people and help them with basic fundamentals of human development. I believe that everyone deserves an opportunity. We are
+the ones that create our own reality, and we have so much power to do so {" "}
             </strong>
           </p>
           

@@ -1,4 +1,4 @@
-
+/* container with typing and name */
 #name {
   margin: auto;
   width: auto;
@@ -8,6 +8,7 @@
   margin-top: 100px;
 }
 
+/* top container */
 .topContainer {
 padding: 30px;
 text-align: center;
@@ -19,7 +20,7 @@ background-color: rgb(255, 255, 255)
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
-
+/* typing effect p id */
 #job {
   border-right: solid 3px rgba(0,255,0,.75);
   white-space: nowrap;
@@ -76,24 +77,46 @@ td {
 
 
 
-
+/* botton container */
 .bottom-container {
   text-align: center;
 }
 
-
+/* heading titles */
 h2 {
   font-family: fantasy;
 }
 
 
 
-.education {
-  text-align: center;
-  float: right;
+p {
+  color: black;
 }
 
-.contact-me {
-text-align: center;
-float: initial;
-}
+
+
+/* button resume */
+a#buttonone{
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+transition: all 0.2s;
+  }
+  a#buttonone:hover{
+color:#000000;
+background-color:#FFFFFF;
+  }
+
+
+
+  h1 {
+    color: black;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
