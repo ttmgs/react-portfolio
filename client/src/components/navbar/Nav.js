@@ -48,9 +48,9 @@ function tog(){
             className={
             location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"
             }
-          ><a href="/react-portfolio">
+          >
       
-      Home</a></Link></li>
+      Home</Link></li>
           
 
 				<li> <Link
@@ -59,8 +59,8 @@ function tog(){
             location.pathname === "/react-portfolio/projects" ? "nav-link active" : "nav-link"
             }
           >
-          <a href="/projects">
-       Projects</a></Link></li>
+        
+       Projects</Link></li>
 
 
 				<li> <Link
@@ -68,10 +68,10 @@ function tog(){
             className={
             location.pathname === "/react-portfolio/contact" ? "nav-link active" : "nav-link"
             }
-          ><a href="/contact">
+          >
        
           
-      Contact</a></Link></li>
+      Contact</Link></li>
 			</ul>
 			<div class="nav-toggle" onClick={tog}>
 				<span class="icon-bar"></span>
