@@ -35,8 +35,10 @@ const About = () => {
       </div>
       <br></br>
       <div id="contactme" style={{textAlign: "center"}}>
-<p style={{fontSize: "20px"}}>📞  : (226)- 759- 5872</p>
-<p style={{fontSize: "20px"}}>📩  : magditiea@gmail.com</p>
+<p style={{fontSize: "20px"}}>Phone-Number : (226)- 759- 5872</p>
+<br></br>
+<p style={{fontSize: "20px"}}>Email : magditiea@gmail.com</p>
+<br></br>
 <a class="btn line-btn-dark btn-icon btn-radius" href={resume} title="" download><button id="buttonone" style={{textAlign: "center"}}>click to download resume</button></a>
 </div>
       <br></br>
@@ -84,6 +86,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
         <br></br>
         <div class="skill-row" style={{ marginTop: "20px" }}>
           <h2>Technologies I use</h2>
+          <br></br>
           <div
             id="programs"
             style={{ display: "inline-flex", fontSize: "15px" }}

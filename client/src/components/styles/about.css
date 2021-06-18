@@ -85,6 +85,8 @@ td {
 /* heading titles */
 h2 {
   font-family: fantasy;
+  color: #000000;
+  font-size: larger;
 }
 
 
