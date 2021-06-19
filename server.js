@@ -8,6 +8,17 @@ require("dotenv").config();
 app.use(express.json());
 app.use(cors());
 
+
+
+// routes
+app.get('/')
+
+
+
+
+
+
+
 let transporter = nodemailer.createTransport({
  service: "gmail",
  auth: {
@@ -46,6 +57,9 @@ app.post("/send", function (req, res) {
    }
  });
 });
+
+
+
 
 const port = 3001;
 app.listen(port, () => {

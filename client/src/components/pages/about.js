@@ -12,6 +12,8 @@ import mom from "../images/8.png";
 import me from "../images/me.png";
 import mongo from "../images/mongo.png";
 import resume from "../images/resume.PDF";
+import EJS from "../images/EJS.png";
+
 
 
 
@@ -35,7 +37,7 @@ const About = () => {
       </div>
       <br></br>
       <div id="contactme" style={{textAlign: "center"}}>
-      <p style={{fontSize: "20px"}}>Email : magditiea@gmail.com (preffered)</p>
+      <p style={{fontSize: "20px"}}>Email : magditiea@gmail.com <em>(preffered)</em></p>
       <br></br>
 <p style={{fontSize: "20px"}}>Phone-Number : (226)- 759- 5872</p>
 <br></br>
@@ -84,13 +86,22 @@ the ones that create our own reality, and we have so much power to do so {" "}
         </div>
         <hr></hr>
         <br></br>
-        <div class="skill-row" style={{ marginTop: "20px" }}>
+        <div class="skill-row" style={{ marginTop: "20px", width: "100%"}}>
           <h2>Technologies I use</h2>
           <br></br>
           <div
             id="programs"
-            style={{ display: "inline-flex", fontSize: "15px" }}
+            style={{ display: "inline-flex", fontSize: "15px", width: "100%" }}
           >
+             <div id="EJS" style={{ fontSize: "15px", marginRight: "15px" }}>
+              <img
+                src={EJS}
+                alt="EJS"
+                style={{ width: "50px", height: "50px", padding: "5px" }}
+              ></img>
+              <p>EJS</p>
+            </div>
+            
             <div id="react" style={{marginRight: "15px" }}>
               <img
                 src={react}
@@ -141,6 +152,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               ></img>
               <p>JQuery</p>
             </div>
+        
             <div id="mongo" style={{ fontSize: "15px", marginRight: "15px" }}>
               <img
                 src={mongo}
