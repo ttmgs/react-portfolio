@@ -5,10 +5,16 @@ import Projects from "./components/pages/projects";
 // import Contact from "./components/pages/contact";
 import About from "./components/pages/about";
 import Footer from "./components/footer/footer";
-
+const express = require('express');
+const app = express();
 
 
 function App() {
+
+app.get('/projects', function(req, res) {
+res.redirect('/projects')
+})
+
   return (
 
 

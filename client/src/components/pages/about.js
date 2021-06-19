@@ -86,14 +86,15 @@ the ones that create our own reality, and we have so much power to do so {" "}
         </div>
         <hr></hr>
         <br></br>
-        <div class="skill-row" style={{ marginTop: "20px", width: "100%"}}>
+        <div class="skill-row" style={{ marginTop: "20px" }}>
           <h2>Technologies I use</h2>
           <br></br>
           <div
             id="programs"
-            style={{ display: "inline-flex", fontSize: "15px", width: "100%" }}
+            style={{ display: "inline-flex", fontSize: "15px" }}
           >
-             <div id="EJS" style={{ fontSize: "15px", marginRight: "15px" }}>
+            
+            <div id="EJS" style={{ fontSize: "15px", marginRight: "15px" }}>
               <img
                 src={EJS}
                 alt="EJS"
@@ -101,7 +102,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               ></img>
               <p>EJS</p>
             </div>
-            
+
             <div id="react" style={{marginRight: "15px" }}>
               <img
                 src={react}
