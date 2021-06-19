@@ -35,9 +35,9 @@ const About = () => {
       </div>
       <br></br>
       <div id="contactme" style={{textAlign: "center"}}>
+      <p style={{fontSize: "20px"}}>Email : magditiea@gmail.com (preffered)</p>
+      <br></br>
 <p style={{fontSize: "20px"}}>Phone-Number : (226)- 759- 5872</p>
-<br></br>
-<p style={{fontSize: "20px"}}>Email : magditiea@gmail.com</p>
 <br></br>
 <a class="btn line-btn-dark btn-icon btn-radius" href={resume} title="" download><button id="buttonone" style={{textAlign: "center"}}>click to download resume</button></a>
 </div>

@@ -63,7 +63,7 @@ function tog(){
        Projects</Link></li>
 
 
-				<li> <Link
+				{/* <li> <Link
             to="/contact"
             className={
             location.pathname === "/contact" ? "nav-link active" : "nav-link"
@@ -77,7 +77,8 @@ function tog(){
 				<span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
-			</div>
+			</div> */}
+      </ul>
 		</nav>
 
 
