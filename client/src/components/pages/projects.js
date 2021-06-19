@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/projects.css";
 import Wrapper from "../wrapper/wrapper";
-import newsletter from "../images/newsletter.png";
+// import newsletter from "../images/newsletter.png";
 import pokemon from "../images/pokemon.png";
 import password from "../images/password.png";
 import planner from "../images/planner.png";
