@@ -17,7 +17,7 @@ import EJS from "../images/EJS.png";
 
 
 
-const About = () => {
+function About() {
 
   return (
     <div>

@@ -9,7 +9,7 @@ import search from "../images/search.png";
 import simon from "../images/simon.png";
 import lizzy from "../images/lizzy.png";
 
-const Projects = () => {
+function Projects(){
 
 
   return (

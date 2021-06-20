@@ -19,10 +19,10 @@ function App() {
 <div>
 <Router>      
 <Nav />
-<Route exact path="/" component={About}  />
 <Route exact path="/react-portfolio" component={About}  />
-<Route exact path="/portfolio" component={Projects} />
-<Route path="/react-portfolio/:projects" component={Projects} />
+<Route exact path="/projects" component={Projects}  />
+ 
+
 
 </Router>
 <Footer/>

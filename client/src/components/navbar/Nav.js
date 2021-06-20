@@ -35,33 +35,19 @@ function tog(){
 
 <nav class="navigation">
 			<div class="nav-logo"> <Link
-            to="/react-portfolio"
-            className={
-            location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"
-            }
-          ><a href="/react-portfolio" alt="about" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></Link></div>
+            to="/react-portfolio">
+          <a href="/react-portfolio" alt="about" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></Link></div>
 			<ul class="nav-menu" onClick={tog}>
 
 
-				<li> <Link
-            to="/react-portfolio"
-            className={
-            location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"
-            }
-          >
+				<li> <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
       
       Home</Link></li>
           
 
-				<li><a href="/react-portfolio/projects" alt="projects"><Link
-            to="/react-portfolio/projects"
-            className={
-            location.pathname === "/react-portfolio/projects" ? "nav-link active" : "nav-link"
-            }
-          >
-        
-       Projects</Link></a></li>
-
+			<li> <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+      
+      Projects</Link></li>
 
 				{/* <li> <Link
             to="/contact"
@@ -89,7 +75,7 @@ function tog(){
   )
 };
 
-export default Nav
+export default Nav;
 
 
 
