@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import  { Redirect } from 'react-router-dom'
 import Nav from "./components/navbar/Nav"
 import Projects from "./components/pages/projects";
 // import Contact from "./components/pages/contact";
@@ -10,19 +11,21 @@ import Footer from "./components/footer/footer";
 
 function App() {
 
-// app.get('/projects', function(req, res) {
-// res.redirect('/projects')
-// })
-
+    
+<Route path='*' render={() => 
+     (
+       <Redirect to="/projects"/>
+     )
+}/>
   return (
 
 
 <div>
 <Router>      
 <Nav />
-<Route exact path="/react-portfolio" component={About}  />
-<Route exact path="/projects" component={Projects} />
-{/* <Route exact path="/contact" component={Contact}   />  */}
+<Route exact path="/" component={About}  />
+<Route exact path="/portfolio" component={Projects} />
+<Route exact path="/react-portfolio/:projects" component={Projects} />
 
 </Router>
 <Footer/>
