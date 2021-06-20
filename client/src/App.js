@@ -12,11 +12,7 @@ import Footer from "./components/footer/footer";
 function App() {
 
     
-<Route path='*' render={() => 
-     (
-       <Redirect to="/projects"/>
-     )
-}/>
+
   return (
 
 
@@ -24,6 +20,7 @@ function App() {
 <Router>      
 <Nav />
 <Route exact path="/" component={About}  />
+<Route exact path="/react-portfolio" component={About}  />
 <Route exact path="/portfolio" component={Projects} />
 <Route exact path="/react-portfolio/:projects" component={Projects} />
 
