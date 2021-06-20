@@ -16,17 +16,17 @@ function App() {
   return (
 
 
-<div>
 <Router>      
+  <div>
 <Nav />
 <Route exact path="/react-portfolio" component={About}  />
+<Route exact path="/about" component={About}  />
 <Route exact path="/projects" component={Projects}  />
- 
 
-
-</Router>
 <Footer/>
 </div>
+</Router>
+
   )};
 
 export default App;
