@@ -7,7 +7,7 @@ import password from "../images/password.png";
 import planner from "../images/planner.png";
 import search from "../images/search.png";
 import simon from "../images/simon.png";
-import lizzy from "../images/lizzy.png";
+import lizzy from "../images/lizzy.png";                                                               
 
 function Projects(){
 
