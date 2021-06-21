@@ -21,7 +21,7 @@ function Nav() {
   </div>
     <ul class="nav navbar-nav navbar-right">
       <li id="home"><a href="/react-portfolio">HOME</a></li>
-      <li id="about"><a href="/react-portfolio/projects">Projects</a></li>
+      <li id="projects"><a href="/react-portfolio/projects">Projects</a></li>
     </ul>
 </div>
 </nav>
