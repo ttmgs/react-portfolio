@@ -24,13 +24,15 @@ function App() {
 <Nav />
 <Route exact path="/" component={About}   />
 
-
-<Projects ref={scrollTo}/>
+<div ref={scrollTo}>
+{Projects}
+<Projects />
 
 </div>.
 
 
 <Footer/>
+</div>
 </Router>
 
   )};
