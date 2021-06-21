@@ -21,7 +21,9 @@ function Nav() {
   </div>
     <ul class="nav navbar-nav navbar-right">
       <li id="home"><a href="/react-portfolio">HOME</a></li>
-      <li id="projects"><a href="/react-portfolio/projects">Projects</a></li>
+      <li id="projects"><a href="/react-portfolio/projects"><Link to="/react-portfolio/projects" className={location.pathname === "/react-portfolio/projects" ? "nav-link active" : "nav-link"}>
+      
+      Projects</Link></a></li>
     </ul>
 </div>
 </nav>
