@@ -9,7 +9,12 @@ import Footer from "./components/footer/footer";
 
 function App() {
 
-    
+  const scrollTo = (ref) => {
+    if (ref + Projects) {
+      ref.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }
+  
 
   return (
 
@@ -19,10 +24,13 @@ function App() {
 <Nav />
 <Route exact path="/" component={About}   />
 
-<Route exact path="/projects" component={Projects}  />
-<Route path='*' exact={true} component={Projects} />
+
+<Projects ref={scrollTo}/>
+
+</div>.
+
+
 <Footer/>
-</div>
 </Router>
 
   )};
