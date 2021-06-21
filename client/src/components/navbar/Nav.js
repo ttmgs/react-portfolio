@@ -35,17 +35,17 @@ function tog(){
 
 <nav class="navigation">
 			<div class="nav-logo"> <Link
-            to="/about">
-          <a href="/about" alt="about" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></Link></div>
+            to="/react-portfolio">
+          <a href="/react-portfolio" alt="react-portfolio" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></Link></div>
 			<ul class="nav-menu" onClick={tog}>
 
 
-				<li> <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+				<li> <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
       
       Home</Link></li>
           
 
-			<li> <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+			<li> <Link to="/react-portfolio/projects" className={location.pathname === "/react-portfolio/projects" ? "nav-link active" : "nav-link"}>
       
       Projects</Link></li>
 
