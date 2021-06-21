@@ -8,66 +8,23 @@ import { Link, useLocation } from "react-router-dom";
 function Nav() {
   const location = useLocation();
 
-//menu toggle
-function tog(){
-  $('.nav-toggle').on("click", function(e){
-      e.preventDefault();
-      $('.nav-toggle').toggleClass('active');
-      $('.nav-menu').toggleClass('active');
-      $('.nav-overlay').toggleClass('active');
-  })
-  $('.nav-overlay').on("click", function(e){
-      e.preventDefault();
-      $('.nav-toggle').toggleClass('active');
-      $('.nav-menu').toggleClass('active');
-      $('.nav-overlay').toggleClass('active');
-  })
-// eslint-disable-next-line no-unused-expressions
-}(jQuery);
-
-
-
 
   return(
     <div>
 
-<div class="nav-overlay"></div>
-
-<nav class="navigation">
-			<div class="nav-logo"> <Link
-            to="/react-portfolio">
-          <a href="/react-portfolio" alt="react-portfolio" style={{color: "black", textDecoration: "none"}}>Magdi Tiea</a></Link></div>
-			<ul class="nav-menu" onClick={tog}>
 
 
-				<li> <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
-      
-      Home</Link></li>
-          
-
-			<li> <Link to="/react-portfolio/projects" className={location.pathname === "/react-portfolio/projects" ? "nav-link active" : "nav-link"}>
-      
-      Projects</Link></li>
-
-				{/* <li> <Link
-            to="/contact"
-            className={
-            location.pathname === "/contact" ? "nav-link active" : "nav-link"
-            }
-          >
-       
-          
-      Contact</Link></li>
-			</ul>
-			<div class="nav-toggle" onClick={tog}>
-				<span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-			</div> */}
-      </ul>
-		</nav>
-
-
+<nav class="navbar navbar-default">
+<div class="container">
+  <div class="navbar-header">
+    <p class="navbar-brand">Magdi Tiea</p>
+  </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li id="home"><a href="/react-portfolio">HOME</a></li>
+      <li id="about"><a href="/react-portfolio/projects">Projects</a></li>
+    </ul>
+</div>
+</nav>
 
 </div>
 
@@ -79,3 +36,10 @@ export default Nav;
 
 
 
+
+
+
+
+// <li> <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
+      
+// Home</Link></li>

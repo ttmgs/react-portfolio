@@ -22,11 +22,7 @@ function App() {
 <About  />
 </Route>
 
-<Route exact path="/react-portfolio">
-<About />
-</Route>
-
-<Route exact path="/react-portfolio/:projects">
+<Route exact path="/react-portfolio/projects">
 <Projects  />
 </Route> 
 
