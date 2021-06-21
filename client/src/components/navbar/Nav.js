@@ -1,24 +1,13 @@
 import React from "react";
 import "../styles/nav.css";
-import jQuery from "jquery";
 import $ from "jquery";
-import { Link, useLocation } from "react-router-dom";
 import Projects from '.././pages/projects';
+import {Link} from 'react-scroll'
+
+
 
 function Nav() {
-  const location = useLocation();
-
-
-  const scrollTo = (ref) => {
-    if (ref + Projects) {
-      ref.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }
   
-  <div ref={scrollTo}>Item</div>
- 
-
-
   return(
     <div>
 
@@ -30,10 +19,8 @@ function Nav() {
     <p class="navbar-brand">Magdi Tiea</p>
   </div>
     <ul class="nav navbar-nav navbar-right">
-      <li id="home"><a href="/">HOME</a></li>
-      <li id="projects"><a href="/projects" onClick={scrollTo}>
-      
-      Projects</a></li>
+      <li id="home"><a href="/react-portfolio">HOME</a></li>
+      <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
     </ul>
 </div>
 </nav>

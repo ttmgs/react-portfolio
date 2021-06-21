@@ -15,6 +15,7 @@ function Projects(){
   return (
     <div>
       <Wrapper>
+        <div id="projects">
         <div class="container" style={{paddingTop: "30px"}}>
           <div class="row" style={{ float: "left" }}>
             <div class="col">
@@ -250,6 +251,7 @@ function Projects(){
               </p>
             </div>
           </div>
+        </div>
         </div>
       </Wrapper>
       <br></br>

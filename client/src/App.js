@@ -4,17 +4,11 @@ import Projects from "./components/pages/projects";
 // import Contact from "./components/pages/contact";
 import About from "./components/pages/about";
 import Footer from "./components/footer/footer";
-
+import $ from "jquery";
 
 
 function App() {
 
-  const scrollTo = (ref) => {
-    if (ref + Projects) {
-      ref.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }
-  }
-  
 
   return (
 
@@ -22,14 +16,9 @@ function App() {
 <Router>      
   <div>
 <Nav />
-<Route exact path="/" component={About}   />
+<Route exact path="/react-portfolio" component={About}   />
 
-<div ref={scrollTo}>
-{Projects}
 <Projects />
-
-</div>.
-
 
 <Footer/>
 </div>
