@@ -13,491 +13,212 @@ function Projects() {
   return (
     <div>
       <div id="projects">
-      <div class="b-example-divider"></div>
-      <h1 class="display-4 fw-bold">Projects</h1>
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-              <div class="col">
-                <img
-                  src={pokemon}
-                  alt="newsletter"
-                  style={{ width: "200px", height: "150px" }}
-                ></img>{" "}
-                <h4>Pokemon STAY </h4>{" "}
-                <span>
-                  <a href="https://group4-project2.herokuapp.com/" alt="stay">
-                    <button style={{ color: "white", backgroundColor: "blue" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a
-                    href="https://github.com/kirsralk/Group4-Project2"
-                    alt="stay"
-                  >
-                    <button style={{ color: "white", backgroundColor: "red" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>{" "}
-                <p>
-                  <strong>Technologies Used:</strong> MySQL, Node.js, Express,
-                  Sequelize and Handlebars
-                </p>
-
-
-
-
-
-
-                <img
-                  src={search}
-                  alt="search"
-                  style={{ width: "200px", height: "150px" }}
-                ></img>{" "}
-                <h4>Live Search Employee Directory </h4>{" "}
-                <span>
-                  <a
-                    href="https://ttmgs.github.io/User-Directory/"
-                    alt="search"
-                  >
-                    <button style={{ backgroundColor: "orange" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a
-                    href="https://github.com/ttmgs/User-Directory"
-                    alt="search"
-                  >
-                    <button style={{ backgroundColor: "red", color: "white" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-                <p>
-                  <strong>Technologies Used: </strong>Node.js, React, JQuery and
-                  CSS
-                </p>
-
-
-
-
-
-
-
-
-              </div>
-
-
-
-
-
-
-
-
-              <div class="col">
-                <img
-                  src={password}
-                  alt="password"
-                  style={{ width: "200px", height: "150px" }}
-                ></img>{" "}
-                <h4>Password Generator </h4>{" "}
-                <span>
-                  <a
-                    href="https://ttmgs.github.io/Password-Generator/"
-                    alt="password"
-                  >
-                    <button
-                      style={{ color: "white", backgroundColor: "purple" }}
-                    >
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a
-                    href="https://github.com/ttmgs/Password-Generator"
-                    alt="password"
-                  >
-                    <button style={{ color: "white", backgroundColor: "red" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-                <p>
-                  <strong>Technologies Used:</strong> Javascript, CSS and HTML
-                </p>
-                <img
-                  src={planner}
-                  alt="planner"
-                  style={{ width: "200px", height: "150px" }}
-                ></img>{" "}
-                <h4>My Travel Planner </h4>{" "}
-                <span>
-                  <a
-                    href="https://mich3ll3e.github.io/My-travel-planner-app/"
-                    alt="planner"
-                  >
-                    <button style={{ color: "white", backgroundColor: "blue" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a href="https://github.com/mich3ll3e/My-travel-planner-app">
-                    <button style={{ color: "white", backgroundColor: "red" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-                <p>
-                  <strong>Technologies Used:</strong> Javascript, HTML and CSS
-                </p>
-              </div>
-              <div class="col">
-
-
-              <img
-                src={simon}
-                alt="newsletter"
-                style={{ width: "200px", height: "150px" }}
-              ></img>{" "}
-              <h4>
-                Simon Game </h4>{" "}
-                <span>
-                  <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
-                    <button style={{ backgroundColor: "orange", color: "white" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a href="https://github.com/ttmgs/Simon-Game" alt="simon">
-                    <button style={{ backgroundColor: "red", color: "white" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used: </strong>HTML, CSS and Javascript
-              </p>
-
-
-
-
-
-
-
-              <img
-                src={lizzy}
-                alt="newsletter"
-                style={{ width: "200px", height: "150px" }}
-              ></img>{" "}
-              <h4>
-                Model Website </h4>{" "}
-                <span>
-                  <a
-                    href="https://ttmgs.github.io/Lizzy-g-portfolio/"
-                    alt="simon"
-                  >
-                    <button style={{ backgroundColor: "blue", color: "white" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-
-                <span>
-                  <a
-                    href="https://github.com/ttmgs/Lizzy-g-portfolio"
-                    alt="simon"
-                  >
-                    <button style={{ backgroundColor: "red", color: "white" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used: </strong>HTML and CSS
-              </p>
-           
-              </div>
-
-              
-
-
+        <div class="b-example-divider"></div>
+        <h1 class="display-4 fw-bold">Projects</h1>
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="container">
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-    
+                <div class="col">
+                  <img
+                    src={pokemon}
+                    alt="newsletter"
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4>Pokemon STAY </h4>{" "}
+                  <span>
+                    <a href="https://group4-project2.herokuapp.com/" alt="stay">
+                      <button
+                        style={{ color: "white", backgroundColor: "blue" }}
+                      >
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a
+                      href="https://github.com/kirsralk/Group4-Project2"
+                      alt="stay"
+                    >
+                      <button
+                        style={{ color: "white", backgroundColor: "red" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <p>
+                    <strong>Technologies Used:</strong> MySQL, Node.js, Express,
+                    Sequelize and Handlebars
+                  </p>
+                  <img
+                    src={search}
+                    alt="search"
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4>Live Search Employee Directory </h4>{" "}
+                  <span>
+                    <a
+                      href="https://ttmgs.github.io/User-Directory/"
+                      alt="search"
+                    >
+                      <button style={{ backgroundColor: "orange" }}>
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a
+                      href="https://github.com/ttmgs/User-Directory"
+                      alt="search"
+                    >
+                      <button
+                        style={{ backgroundColor: "red", color: "white" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>
+                  <p>
+                    <strong>Technologies Used: </strong>Node.js, React, JQuery
+                    and CSS
+                  </p>
+                </div>
 
-
-</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      {/* <Wrapper>
-        <div id="projects">
-        <h1>Projects</h1>
-        <div class="container" style={{paddingTop: "30px"}}>
-          <div class="row" style={{ float: "left" }}>
-            <div class="col">
-              <div id="pokemon">
-              <img
-                src={pokemon}
-                alt="newsletter"
-                style={{ width: "200px", height: "150px" }}
-              ></img>{" "}
-              <h4>
-                Pokemon STAY </h4>{" "}
-                <span>
-                  <a href="https://group4-project2.herokuapp.com/" alt="stay">
-                    <button style={{ color: "white", backgroundColor: "blue" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a href="https://github.com/kirsralk/Group4-Project2" alt="stay">
-                    <button style={{ color: "white", backgroundColor: "red" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>{" "}
-              <p>
-                <strong>Technologies Used:</strong> MySQL, Node.js, Express,
-                Sequelize and Handlebars
-              </p>
-              <br></br>
-              <p style={{fontFamily: "serif"}}><strong>
-               This application combines MySQL database
-                and Pokemon together. Many more implementaions to come in the future!</strong>
-              </p>
-              </div>
-            </div>
-
-
-            <div class="col">
-              <div id="planner">
-              <img
-                src={planner}
-                alt="planner"
-                style={{ width: "200px", height: "150px"}}
-              ></img>{" "}
-              <h4>
-                My Travel Planner </h4>{" "}
-                <span>
-                  <a
-                    href="https://mich3ll3e.github.io/My-travel-planner-app/"
+                <div class="col">
+                  <img
+                    src={password}
+                    alt="password"
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4>Password Generator </h4>{" "}
+                  <span>
+                    <a
+                      href="https://ttmgs.github.io/Password-Generator/"
+                      alt="password"
+                    >
+                      <button
+                        style={{ color: "white", backgroundColor: "purple" }}
+                      >
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a
+                      href="https://github.com/ttmgs/Password-Generator"
+                      alt="password"
+                    >
+                      <button
+                        style={{ color: "white", backgroundColor: "red" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>
+                  <p>
+                    <strong>Technologies Used:</strong> Javascript, CSS and HTML
+                  </p>
+                  <img
+                    src={planner}
                     alt="planner"
-                  >
-                    <button style={{ color: "white", backgroundColor: "blue" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a
-                    href="https://github.com/mich3ll3e/My-travel-planner-app"
-                  >
-                    <button style={{ color: "white", backgroundColor: "red" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used:</strong> Javascript, HTML and CSS
-              </p>
-              <br></br>
-              <p style={{fontFamily: "serif"}}><strong>My Travel Planner allows you to
-                plan the most important aspects of your trips in a centralized
-                location.</strong> 
-              </p>
-            </div>
-            </div>
-          </div>
-
-
-          <div class="row" style={{paddingTop: "20px"}}>
-            <div class="col">
-              <div id="password">
-              <img
-                src={password}
-                alt="password"
-                style={{ width: "200px", height: "250px" }}
-              ></img>{" "}
-              <h4>
-                Password Generator </h4>{" "}
-                <span>
-                  <a
-                    href="https://ttmgs.github.io/Password-Generator/"
-                    alt="password"
-                  >
-                    <button
-                      style={{ color: "white", backgroundColor: "purple" }}
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4>My Travel Planner </h4>{" "}
+                  <span>
+                    <a
+                      href="https://mich3ll3e.github.io/My-travel-planner-app/"
+                      alt="planner"
                     >
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a
-                    href="https://github.com/ttmgs/Password-Generator"
-                    alt="password"
-                  >
-                    <button
-                      style={{ color: "white", backgroundColor: "red" }}
+                      <button
+                        style={{ color: "white", backgroundColor: "blue" }}
+                      >
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a href="https://github.com/mich3ll3e/My-travel-planner-app">
+                      <button
+                        style={{ color: "white", backgroundColor: "red" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>
+                  <p>
+                    <strong>Technologies Used:</strong> Javascript, HTML and CSS
+                  </p>
+                </div>
+                <div class="col">
+                  <img
+                    src={simon}
+                    alt="newsletter"
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4>Simon Game </h4>{" "}
+                  <span>
+                    <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
+                      <button
+                        style={{ backgroundColor: "orange", color: "white" }}
+                      >
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a href="https://github.com/ttmgs/Simon-Game" alt="simon">
+                      <button
+                        style={{ backgroundColor: "red", color: "white" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>
+                  <p>
+                    <strong>Technologies Used: </strong>HTML, CSS and Javascript
+                  </p>
+                  <img
+                    src={lizzy}
+                    alt="newsletter"
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4>Model Website </h4>{" "}
+                  <span>
+                    <a
+                      href="https://ttmgs.github.io/Lizzy-g-portfolio/"
+                      alt="simon"
                     >
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used:</strong> Javascript, CSS and HTML
-              </p>
-              <br></br>
-              <p style={{fontFamily: "serif"}}><strong>
-               Choose between 3 character types
-                and this app will generate a random password for you
-                </strong>
-              </p>
+                      <button
+                        style={{ backgroundColor: "blue", color: "white" }}
+                      >
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a
+                      href="https://github.com/ttmgs/Lizzy-g-portfolio"
+                      alt="simon"
+                    >
+                      <button
+                        style={{ backgroundColor: "red", color: "white" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>
+                  <p>
+                    <strong>Technologies Used: </strong>HTML and CSS
+                  </p>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4"></div>
               </div>
             </div>
-
-
-            <div className="col" style={{paddingTop: "20px"}}>
-              <div id="employee">
-              <img
-                src={search}
-                alt="newsletter"
-                style={{ width: "200px", height: "150px" }}
-              ></img>{" "}
-              <h4>
-                Live Search Employee Directory </h4>{" "}
-                <span>
-                  <a
-                    href="https://ttmgs.github.io/User-Directory/"
-                    alt="search"
-                  >
-                    <button style={{ backgroundColor: "orange" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a
-                    href="https://github.com/ttmgs/User-Directory"
-                    alt="search"
-                  >
-                    <button style={{ backgroundColor: "red", color: "white" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used: </strong>Node.js, React, JQuery and
-                CSS
-              </p>
-              <br></br>
-              <p style={{fontFamily: "serif"}}><strong>
-              This live search allows you to
-                type in a name and as you type letter by letter the employee
-                information related to the name you searched will apear.{" "}</strong>
-              </p>
-            </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div className="col">
-              <div id="simon">
-              <img
-                src={simon}
-                alt="newsletter"
-                style={{ width: "200px", height: "250px" }}
-              ></img>{" "}
-              <h4>
-                Simon Game </h4>{" "}
-                <span>
-                  <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
-                    <button style={{ backgroundColor: "orange", color: "white" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-                <span>
-                  <a href="https://github.com/ttmgs/Simon-Game" alt="simon">
-                    <button style={{ backgroundColor: "red", color: "white" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used: </strong>HTML, CSS and Javascript
-              </p>
-              <br></br>
-              <p style={{fontFamily: "serif"}}><strong>
-               This app is a memory game which
-                you have to memorize the colors that are randomly assigned to
-                you. Choose the wrong color and its Game over!
-                </strong>
-              </p>
-            </div>
-            </div>
-
-
-            <div className="col">
-              <div id="lizzy">
-              <img
-                src={lizzy}
-                alt="newsletter"
-                style={{ width: "200px", height: "150px" }}
-              ></img>{" "}
-              <h4>
-                Model Website </h4>{" "}
-                <span>
-                  <a
-                    href="https://ttmgs.github.io/Lizzy-g-portfolio/"
-                    alt="simon"
-                  >
-                    <button style={{ backgroundColor: "blue", color: "white" }}>
-                      view application
-                    </button>
-                  </a>
-                </span>{" "}
-
-                <span>
-                  <a
-                    href="https://github.com/ttmgs/Lizzy-g-portfolio"
-                    alt="simon"
-                  >
-                    <button style={{ backgroundColor: "red", color: "white" }}>
-                      more details
-                    </button>
-                  </a>
-                </span>
-              <p>
-                <strong>Technologies Used: </strong>HTML and CSS
-              </p>
-              <br></br>
-              <p style={{fontFamily: "serif"}}><strong>
-               This website is the very first
-                website i created for a client. Simple model website with
-                pictures & information
-                </strong>
-              </p>
-            </div>
-            </div>
           </div>
         </div>
-        </div>
-      </Wrapper>
-      <br></br>
-      <br></br> */}
+      </div>
     </div>
   );
 }
