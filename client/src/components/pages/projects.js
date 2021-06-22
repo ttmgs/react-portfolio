@@ -156,7 +156,7 @@ function Projects() {
                     alt="newsletter"
                     style={{ width: "200px", height: "150px" }}
                   ></img>{" "}
-                  <h4>Simon Game </h4>{" "}
+                  <h4>Simon Game</h4><span><p>(mobile device)</p></span>{" "}
                   <span>
                     <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
                       <button

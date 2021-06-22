@@ -29,7 +29,8 @@ function Footer() {
           <a href="https://www.linkedin.com/in/magdi-tiea-6b56071b9/" class="fa fa-linkedin"></a>
           <a href="https://github.com/ttmgs" class="fa fa-github"></a>
 
-
+<h5>programs I use</h5>
+<p style={{color: "white"}}> React, Node.js, EJS, Javascript, HTML, CSS, JQuery, MongoDB, NOSQL </p>
       </div>
     </div>
   </div>
