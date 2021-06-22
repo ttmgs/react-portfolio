@@ -20,6 +20,7 @@ function Nav() {
       {/* <li><a href="//sixrevisions.com">Home</a></li> */}
       <li><a href="/about"><Link to="about" spy={true} smooth={true}> About</Link></a></li>
       <li><a href="/projects"><Link to="projects" spy={true} smooth={true}> Projects</Link></a></li>
+      <li><a href="/projects"><Link to="contact" spy={true} smooth={true}> Contact</Link></a></li>
       </ul>
   </div>
 </nav>

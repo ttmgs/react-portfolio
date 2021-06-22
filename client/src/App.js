@@ -18,7 +18,6 @@ function App() {
 
 <div>
   <Nav />
-<body>
 
 
 
@@ -26,8 +25,7 @@ function App() {
     <About />
     <Projects />
     
-          
-      </body>
+      <Footer />
 
 
 
