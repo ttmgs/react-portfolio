@@ -14,11 +14,7 @@ import mongo from "../images/mongo.png";
 import resume from "../images/resume.PDF";
 import EJS from "../images/EJS.png";
 
-
-
-
 function About() {
-
   return (
     <div>
       <div className="topContainer">
@@ -26,49 +22,64 @@ function About() {
           <img
             src={logo}
             alt="me"
-            style={{ width: "250px", height: "250px" }}
+            style={{ width: "400px", height: "400px" }}
           ></img>
           <br></br>
-          <h1>Magdi Tiea</h1>
+          <h1 id="name">Magdi Tiea</h1>
           <br></br>
           <p id="job">Full-Stack Website Developer from Windsor, ON</p>
-
         </div>
       </div>
       <br></br>
-      <div id="contactme" style={{textAlign: "center"}}>
-      <p style={{fontSize: "20px"}}>Email : magditiea@gmail.com <em>(preffered)</em></p>
-      <br></br>
-<p style={{fontSize: "20px"}}>Phone-Number : (226)- 759- 5872</p>
-<br></br>
-<a class="btn line-btn-dark btn-icon btn-radius" href={resume} title="" download><button id="buttonone" style={{textAlign: "center"}}>click to download resume</button></a>
-</div>
-      <br></br>
-      <br></br>
-      <br></br>
+      <center>
+      <div id="contactme" style={{ textAlign: "center" }}>
+        <p>
+          Email : magditiea@gmail.com <em>(preffered)</em>
+        </p>
+        <br></br>
+        <p>Phone-Number : (226)- 759- 5872</p>
+        <br></br>
 
+        <a
+          class="btn line-btn-dark btn-icon btn-radius"
+          href={resume}
+          title=""
+          download
+        >
+          <button type="button" class="btn btn-primary">
+            Click to download resume
+          </button>
+        </a>
+      </div>
+      </center>
+      <br></br>
+      <br></br>
+      <br></br>
+<br></br>
+<hr></hr>
+<div id="about">
       <div class="middle-container">
         <div id="picbox">
           <div id="pics">
             <img
               src={grad}
               alt="grad"
-              style={{ width: "140px", height: "140px", marginBottom: "15px" }}
+              style={{ width: "160px", height: "160px", marginBottom: "15px" }}
             ></img>
             <img
               src={upei}
               alt="grad"
-              style={{ width: "140px", height: "140px", marginBottom: "15px" }}
+              style={{ width: "160px", height: "160px", marginBottom: "15px" }}
             ></img>
             <img
               src={mom}
               alt="grad"
-              style={{ width: "140px", height: "140px", marginBottom: "15px" }}
+              style={{ width: "160px", height: "160px", marginBottom: "15px" }}
             ></img>
             <img
               src={me}
               alt="grad"
-              style={{ width: "140px", height: "140px", marginBottom: "15px" }}
+              style={{ width: "160px", height: "160px", marginBottom: "15px" }}
             ></img>
           </div>
         </div>
@@ -77,15 +88,19 @@ function About() {
         <div class="profile">
           <p style={{ fontFamily: "monospace", fontSize: "20px" }}>
             <strong>
-            Came into this world not knowing the answers, but trying to make a difference in peoples lives. This is my objective
-and my life goal. My mission is to teach people and help them with basic fundamentals of human development. I believe that everyone deserves an opportunity. We are
-the ones that create our own reality, and we have so much power to do so {" "}
+              Came into this world not knowing the answers, but trying to make a
+              difference in peoples lives. This is my objective and my life
+              goal. My mission is to teach people and help them with basic
+              fundamentals of human development. I believe that everyone
+              deserves an opportunity. We are the ones that create our own
+              reality, and we have so much power to do so{" "}
             </strong>
           </p>
-          
+        </div>
         </div>
         <hr></hr>
         <br></br>
+        <center>
         <div class="skill-row" style={{ marginTop: "20px" }}>
           <h2>Technologies I use</h2>
           <br></br>
@@ -93,7 +108,6 @@ the ones that create our own reality, and we have so much power to do so {" "}
             id="programs"
             style={{ display: "inline-flex", fontSize: "15px" }}
           >
-            
             <div id="EJS" style={{ fontSize: "15px", marginRight: "15px" }}>
               <img
                 src={EJS}
@@ -103,7 +117,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               <p>EJS</p>
             </div>
 
-            <div id="react" style={{marginRight: "15px" }}>
+            <div id="react" style={{ marginRight: "15px" }}>
               <img
                 src={react}
                 alt="react"
@@ -112,7 +126,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               <p>React</p>
             </div>
 
-            <div id="nodejs" style={{marginRight: "15px" }}>
+            <div id="nodejs" style={{ marginRight: "15px" }}>
               <img
                 src={nodejs}
                 alt="node"
@@ -121,7 +135,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               <p>NodeJS</p>
             </div>
 
-            <div id="html" style={{marginRight: "15px" }}>
+            <div id="html" style={{ marginRight: "15px" }}>
               <img
                 src={html}
                 alt="node"
@@ -139,7 +153,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               <p>CSS</p>
             </div>
 
-            <div id="jquery" style={{marginRight: "15px" }}>
+            <div id="jquery" style={{ marginRight: "15px" }}>
               <img
                 src={jquery}
                 alt="jquery"
@@ -153,7 +167,7 @@ the ones that create our own reality, and we have so much power to do so {" "}
               ></img>
               <p>JQuery</p>
             </div>
-        
+
             <div id="mongo" style={{ fontSize: "15px", marginRight: "15px" }}>
               <img
                 src={mongo}
@@ -164,11 +178,12 @@ the ones that create our own reality, and we have so much power to do so {" "}
             </div>
           </div>
         </div>
+        </center>
         <br></br>
         <hr></hr>
       </div>
     </div>
   );
-};
+}
 
 export default About;

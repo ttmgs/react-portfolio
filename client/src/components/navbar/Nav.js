@@ -16,11 +16,11 @@ function Nav() {
 <nav class="navbar navbar-default">
 <div class="container">
   <div class="navbar-header">
-    <p class="navbar-brand">Magdi Tiea</p>
+    {/* <p class="navbar-brand" id="big">Magdi Tiea</p> */}
   </div>
     <ul class="nav navbar-nav navbar-right">
-      <li id="home"><a href="/react-portfolio">HOME</a></li>
-      <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
+      <li id="navstyle"><Link to="about" spy={true} smooth={true}>About me</Link></li>
+      <li id="navstyle"><Link to="projects" spy={true} smooth={true}>My Projects</Link></li>
     </ul>
 </div>
 </nav>

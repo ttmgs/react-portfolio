@@ -16,13 +16,15 @@ function Projects(){
     <div>
       <Wrapper>
         <div id="projects">
+        <h1>Projects</h1>
         <div class="container" style={{paddingTop: "30px"}}>
           <div class="row" style={{ float: "left" }}>
             <div class="col">
+              <div id="pokemon">
               <img
                 src={pokemon}
                 alt="newsletter"
-                style={{ width: "450px", height: "250px" }}
+                style={{ width: "480px", height: "250px" }}
               ></img>{" "}
               <h4>
                 Pokemon STAY </h4>{" "}
@@ -45,18 +47,20 @@ function Projects(){
                 Sequelize and Handlebars
               </p>
               <br></br>
-              <p style={{fontFamily: "serif"}}>
+              <p style={{fontFamily: "serif"}}><strong>
                This application combines MySQL database
-                and Pokemon together. Many more implementaions to come in the future!
+                and Pokemon together. Many more implementaions to come in the future!</strong>
               </p>
+              </div>
             </div>
 
 
             <div class="col">
+              <div id="planner">
               <img
                 src={planner}
                 alt="planner"
-                style={{ width: "450px", height: "250px", paddingTop:"10px" }}
+                style={{ width: "480px", height: "250px", paddingTop:"10px" }}
               ></img>{" "}
               <h4>
                 My Travel Planner </h4>{" "}
@@ -83,20 +87,22 @@ function Projects(){
                 <strong>Technologies Used:</strong> Javascript, HTML and CSS
               </p>
               <br></br>
-              <p style={{fontFamily: "serif"}}> My Travel Planner allows you to
+              <p style={{fontFamily: "serif"}}><strong>My Travel Planner allows you to
                 plan the most important aspects of your trips in a centralized
-                location.
+                location.</strong> 
               </p>
+            </div>
             </div>
           </div>
 
 
           <div class="row" style={{paddingTop: "20px"}}>
             <div class="col">
+              <div id="password">
               <img
                 src={password}
                 alt="password"
-                style={{ width: "450px", height: "250px" }}
+                style={{ width: "480px", height: "250px" }}
               ></img>{" "}
               <h4>
                 Password Generator </h4>{" "}
@@ -128,18 +134,21 @@ function Projects(){
                 <strong>Technologies Used:</strong> Javascript, CSS and HTML
               </p>
               <br></br>
-              <p style={{fontFamily: "serif"}}>
+              <p style={{fontFamily: "serif"}}><strong>
                Choose between 3 character types
                 and this app will generate a random password for you
+                </strong>
               </p>
+              </div>
             </div>
 
 
             <div className="col" style={{paddingTop: "20px"}}>
+              <div id="employee">
               <img
                 src={search}
                 alt="newsletter"
-                style={{ width: "450px", height: "250px" }}
+                style={{ width: "480px", height: "250px" }}
               ></img>{" "}
               <h4>
                 Live Search Employee Directory </h4>{" "}
@@ -168,26 +177,28 @@ function Projects(){
                 CSS
               </p>
               <br></br>
-              <p style={{fontFamily: "serif"}}>
+              <p style={{fontFamily: "serif"}}><strong>
               This live search allows you to
                 type in a name and as you type letter by letter the employee
-                information related to the name you searched will apear.{" "}
+                information related to the name you searched will apear.{" "}</strong>
               </p>
+            </div>
             </div>
           </div>
 
           <div class="row">
             <div className="col">
+              <div id="simon">
               <img
                 src={simon}
                 alt="newsletter"
-                style={{ width: "450px", height: "250px" }}
+                style={{ width: "480px", height: "250px" }}
               ></img>{" "}
               <h4>
                 Simon Game </h4>{" "}
                 <span>
                   <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
-                    <button style={{ backgroundColor: "yellow" }}>
+                    <button style={{ backgroundColor: "orange", color: "white" }}>
                       view application
                     </button>
                   </a>
@@ -203,19 +214,22 @@ function Projects(){
                 <strong>Technologies Used: </strong>HTML, CSS and Javascript
               </p>
               <br></br>
-              <p style={{fontFamily: "serif"}}>
+              <p style={{fontFamily: "serif"}}><strong>
                This app is a memory game which
                 you have to memorize the colors that are randomly assigned to
                 you. Choose the wrong color and its Game over!
+                </strong>
               </p>
+            </div>
             </div>
 
 
             <div className="col">
+              <div id="lizzy">
               <img
                 src={lizzy}
                 alt="newsletter"
-                style={{ width: "450px", height: "250px" }}
+                style={{ width: "480px", height: "250px" }}
               ></img>{" "}
               <h4>
                 Model Website </h4>{" "}
@@ -244,11 +258,13 @@ function Projects(){
                 <strong>Technologies Used: </strong>HTML and CSS
               </p>
               <br></br>
-              <p style={{fontFamily: "serif"}}>
+              <p style={{fontFamily: "serif"}}><strong>
                This website is the very first
                 website i created for a client. Simple model website with
                 pictures & information
+                </strong>
               </p>
+            </div>
             </div>
           </div>
         </div>
