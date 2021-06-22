@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/footer.css";
-// import instagram from "../images/instagram.png";
-// import linkedin from "../images/linkedin.png";
-// import github from "../images/github.png";
+import instagram from "../images/instagram.png";
+import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
 
 
 function Footer() {

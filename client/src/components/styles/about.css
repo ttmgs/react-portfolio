@@ -117,7 +117,7 @@ background-color:#FFFFFF;
 
 
 
-  #name {
+  #fullname {
     color: black;
     font-size: 60px;
     font-family: cursive;
@@ -127,8 +127,12 @@ background-color:#FFFFFF;
   #contactme {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid purple;
     width: 500px;
     font-size: 30px;
 
+  }
+
+
+  #email {
+    color: blue;
   }

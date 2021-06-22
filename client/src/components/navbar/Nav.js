@@ -1,31 +1,31 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
+import {Link} from 'react-scroll';
 import "../styles/nav.css";
-import $ from "jquery";
-import Projects from '.././pages/projects';
-import {Link} from 'react-scroll'
-
-
 
 function Nav() {
+
   
   return(
-    <div>
 
 
 
-<nav class="navbar navbar-default">
-<div class="container">
-  <div class="navbar-header">
-    {/* <p class="navbar-brand" id="big">Magdi Tiea</p> */}
+
+      
+<nav class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <a class="sitename" href="/"><Link to="home" spy={true} smooth={true}> Magdi Tiea</Link></a>
+    {/* <!-- Example responsive navigation menu  --> */}
+    <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+    <ul class="menu-items">
+      {/* <li><a href="//sixrevisions.com">Home</a></li> */}
+      <li><a href="/about"><Link to="about" spy={true} smooth={true}> About</Link></a></li>
+      <li><a href="/projects"><Link to="projects" spy={true} smooth={true}> Projects</Link></a></li>
+      </ul>
   </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li id="navstyle"><Link to="about" spy={true} smooth={true}>About me</Link></li>
-      <li id="navstyle"><Link to="projects" spy={true} smooth={true}>My Projects</Link></li>
-    </ul>
-</div>
 </nav>
 
-</div>
+
+
 
 
   )
@@ -37,8 +37,3 @@ export default Nav;
 
 
 
-
-
-// <li> <Link to="/react-portfolio" className={location.pathname === "/react-portfolio" ? "nav-link active" : "nav-link"}>
-      
-// Home</Link></li>
