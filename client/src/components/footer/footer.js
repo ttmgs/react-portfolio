@@ -3,7 +3,13 @@ import "../styles/footer.css";
 import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
-
+import react from "../images/react.png";
+import nodejs from "../images/node.png";
+import html from "../images/html.png";
+import css from "../images/css.png";
+import jquery from "../images/jquery.png";
+import mongo from "../images/mongo.png";
+import EJS from "../images/EJS.png";
 
 function Footer() {
   return (
@@ -19,10 +25,7 @@ function Footer() {
           <br></br>
           Email- magditiea@gmail.com
           </p>
-        {/* <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-        </div> */}
+      
       </div>
     </div>
   </div>
