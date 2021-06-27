@@ -14,18 +14,18 @@ function Projects() {
     <div>
       <div id="projects">
         <div class="b-example-divider"></div>
-        <h1 class="display-4 fw-bold">Projects</h1>
+        <h1 class="display-4 fw-bold" style={{color: "white"}}>Projects</h1>
         <div class="container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="container">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4" style={{color: "white"}}>
                 <div class="col">
                   <img
                     src={pokemon}
                     alt="newsletter"
-                    style={{ width: "200px", height: "150px" }}
+                    style={{ width: "200px", height: "150px"}}
                   ></img>{" "}
-                  <h4>Pokemon STAY </h4>{" "}
+                  <h4 style={{ color: "white"}}>Pokemon STAY </h4>{" "}
                   <span>
                     <a href="https://group4-project2.herokuapp.com/" alt="stay">
                       <button
@@ -47,7 +47,7 @@ function Projects() {
                       </button>
                     </a>
                   </span>{" "}
-                  <p>
+                  <p style={{ color: "white"}}>
                     <strong>Technologies Used:</strong> MySQL, Node.js, Express,
                     Sequelize and Handlebars
                   </p>
@@ -56,7 +56,7 @@ function Projects() {
                     alt="search"
                     style={{ width: "200px", height: "150px" }}
                   ></img>{" "}
-                  <h4>Live Search Employee Directory </h4>{" "}
+                  <h4 style={{ color: "white"}}>Live Search Employee Directory </h4>{" "}
                   <span>
                     <a
                       href="https://ttmgs.github.io/User-Directory/"
@@ -79,7 +79,7 @@ function Projects() {
                       </button>
                     </a>
                   </span>
-                  <p>
+                  <p style={{ color: "white"}}>
                     <strong>Technologies Used: </strong>Node.js, React, JQuery
                     and CSS
                   </p>
@@ -91,7 +91,7 @@ function Projects() {
                     alt="password"
                     style={{ width: "200px", height: "150px" }}
                   ></img>{" "}
-                  <h4>Password Generator </h4>{" "}
+                  <h4 style={{ color: "white"}}>Password Generator </h4>{" "}
                   <span>
                     <a
                       href="https://ttmgs.github.io/Password-Generator/"
@@ -116,7 +116,7 @@ function Projects() {
                       </button>
                     </a>
                   </span>
-                  <p>
+                  <p style={{ color: "white"}}> 
                     <strong>Technologies Used:</strong> Javascript, CSS and HTML
                   </p>
                   <img
@@ -124,7 +124,7 @@ function Projects() {
                     alt="planner"
                     style={{ width: "200px", height: "150px" }}
                   ></img>{" "}
-                  <h4>My Travel Planner </h4>{" "}
+                  <h4 style={{ color: "white"}}>My Travel Planner </h4>{" "}
                   <span>
                     <a
                       href="https://mich3ll3e.github.io/My-travel-planner-app/"
@@ -146,7 +146,7 @@ function Projects() {
                       </button>
                     </a>
                   </span>
-                  <p>
+                  <p style={{ color: "white"}}>
                     <strong>Technologies Used:</strong> Javascript, HTML and CSS
                   </p>
                 </div>
@@ -156,7 +156,7 @@ function Projects() {
                     alt="newsletter"
                     style={{ width: "200px", height: "150px" }}
                   ></img>{" "}
-                  <h4>Simon Game</h4><span><p>(mobile device)</p></span>{" "}
+                  <h4 style={{ color: "white"}}>Simon Game</h4><span><p>(mobile device)</p></span>{" "}
                   <span>
                     <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
                       <button
@@ -175,7 +175,7 @@ function Projects() {
                       </button>
                     </a>
                   </span>
-                  <p>
+                  <p style={{ color: "white"}}>
                     <strong>Technologies Used: </strong>HTML, CSS and Javascript
                   </p>
                   <img
@@ -183,7 +183,7 @@ function Projects() {
                     alt="newsletter"
                     style={{ width: "200px", height: "150px" }}
                   ></img>{" "}
-                  <h4>Model Website </h4>{" "}
+                  <h4 style={{ color: "white"}}>Model Website </h4>{" "}
                   <span>
                     <a
                       href="https://ttmgs.github.io/Lizzy-g-portfolio/"
@@ -208,7 +208,7 @@ function Projects() {
                       </button>
                     </a>
                   </span>
-                  <p>
+                  <p style={{ color: "white"}}>
                     <strong>Technologies Used: </strong>HTML and CSS
                   </p>
                 </div>
