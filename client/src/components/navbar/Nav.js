@@ -13,7 +13,7 @@ function Nav() {
       
 <nav class="fixed-nav-bar">
   <div id="menu" class="menu">
-    <a class="sitename" href="/home"><Link to="home" spy={true} smooth={true}> Magdi Tiea</Link></a>
+    <a class="sitename" href="/home"><Link to="home" spy={true} smooth={true}> MAGDI TIEA</Link></a>
     {/* <!-- Example responsive navigation menu  --> */}
     <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
     <ul class="menu-items">

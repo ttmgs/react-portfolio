@@ -221,7 +221,7 @@ function Projects() {
                   ></img>{" "}
                   <h4 style={{ color: "white"}}>Newsletter Signup</h4>{" "}
                   <span>
-                    <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
+                    <a href="https://minewslettersignup.herokuapp.com/" alt="simon">
                       <button
                         style={{ backgroundColor: "orange", color: "white" }}
                       >
@@ -230,7 +230,7 @@ function Projects() {
                     </a>
                   </span>{" "}
                   <span>
-                    <a href="https://github.com/ttmgs/Simon-Game" alt="simon">
+                    <a href="https://github.com/ttmgs/Newsletter-Signup" alt="simon">
                       <button
                         style={{ backgroundColor: "red", color: "white" }}
                       >
@@ -239,7 +239,7 @@ function Projects() {
                     </a>
                   </span>
                   <p style={{ color: "white"}}>
-                    <strong style={{color: "black"}}>Technologies Used: </strong>Mailchimp API, Javascript, HTML, CSS, 
+                    <strong style={{color: "black"}}>Technologies Used: </strong>Mailchimp API, Javascript, HTML, BOOTSTRAP
                   </p>
                  
                 </div>
