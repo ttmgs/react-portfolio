@@ -9,7 +9,6 @@ function Header() {
   return(
 
 
-<div>
 
 
     <div id="home">
@@ -33,7 +32,6 @@ function Header() {
       </div>
 
 
-      </div>
 
 
 
