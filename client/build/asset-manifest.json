@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7b58385a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.28006f4f.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.28006f4f.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.0ad03b91.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.0ad03b91.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.6bbf2bf3.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6bbf2bf3.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -24,6 +24,7 @@
     "static/media/lizzy.59c7a122.png": "/react-portfolio/static/media/lizzy.59c7a122.png",
     "static/media/me.8dd8c23f.png": "/react-portfolio/static/media/me.8dd8c23f.png",
     "static/media/mongo.338c164c.png": "/react-portfolio/static/media/mongo.338c164c.png",
+    "static/media/newsletter.2696398a.png": "/react-portfolio/static/media/newsletter.2696398a.png",
     "static/media/node.c67c77e1.png": "/react-portfolio/static/media/node.c67c77e1.png",
     "static/media/password.5f33152c.png": "/react-portfolio/static/media/password.5f33152c.png",
     "static/media/planner.7d8ecb34.png": "/react-portfolio/static/media/planner.7d8ecb34.png",
@@ -39,6 +40,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.5f79bde8.chunk.js",
     "static/css/main.7b58385a.chunk.css",
-    "static/js/main.28006f4f.chunk.js"
+    "static/js/main.0ad03b91.chunk.js"
   ]
 }

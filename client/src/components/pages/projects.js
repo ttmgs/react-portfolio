@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/projects.css";
 import Wrapper from "../wrapper/wrapper";
-// import newsletter from "../images/newsletter.png";
+import newsletter from "../images/newsletter.png";
 import pokemon from "../images/pokemon.png";
 import password from "../images/password.png";
 import planner from "../images/planner.png";
@@ -48,7 +48,7 @@ function Projects() {
                     </a>
                   </span>{" "}
                   <p style={{ color: "white"}}>
-                    <strong>Technologies Used:</strong> MySQL, Node.js, Express,
+                  <strong style={{color: "black"}}>Technologies Used: </strong> MySQL, Node.js, Express,
                     Sequelize and Handlebars
                   </p>
                   <img
@@ -80,7 +80,7 @@ function Projects() {
                     </a>
                   </span>
                   <p style={{ color: "white"}}>
-                    <strong>Technologies Used: </strong>Node.js, React, JQuery
+                  <strong style={{color: "black"}}>Technologies Used: </strong> Node.js, React, JQuery
                     and CSS
                   </p>
                 </div>
@@ -117,7 +117,7 @@ function Projects() {
                     </a>
                   </span>
                   <p style={{ color: "white"}}> 
-                    <strong>Technologies Used:</strong> Javascript, CSS and HTML
+                  <strong style={{color: "black"}}>Technologies Used: </strong> Javascript, CSS and HTML
                   </p>
                   <img
                     src={planner}
@@ -147,7 +147,7 @@ function Projects() {
                     </a>
                   </span>
                   <p style={{ color: "white"}}>
-                    <strong>Technologies Used:</strong> Javascript, HTML and CSS
+                  <strong style={{color: "black"}}>Technologies Used: </strong> Javascript, HTML and CSS
                   </p>
                 </div>
                 <div class="col">
@@ -176,7 +176,7 @@ function Projects() {
                     </a>
                   </span>
                   <p style={{ color: "white"}}>
-                    <strong>Technologies Used: </strong>HTML, CSS and Javascript
+                  <strong style={{color: "black"}}>Technologies Used: </strong>HTML, CSS and Javascript
                   </p>
                   <img
                     src={lizzy}
@@ -209,8 +209,39 @@ function Projects() {
                     </a>
                   </span>
                   <p style={{ color: "white"}}>
-                    <strong>Technologies Used: </strong>HTML and CSS
+                  <strong style={{color: "black"}}>Technologies Used: </strong>HTML and CSS
                   </p>
+                </div>
+
+                <div class="col">
+                  <img
+                    src={newsletter}
+                    alt="newsletter"
+                    style={{ width: "200px", height: "150px" }}
+                  ></img>{" "}
+                  <h4 style={{ color: "white"}}>Newsletter Signup</h4>{" "}
+                  <span>
+                    <a href="https://ttmgs.github.io/Simon-Game/" alt="simon">
+                      <button
+                        style={{ backgroundColor: "orange", color: "white" }}
+                      >
+                        view application
+                      </button>
+                    </a>
+                  </span>{" "}
+                  <span>
+                    <a href="https://github.com/ttmgs/Simon-Game" alt="simon">
+                      <button
+                        style={{ backgroundColor: "red", color: "white" }}
+                      >
+                        more details
+                      </button>
+                    </a>
+                  </span>
+                  <p style={{ color: "white"}}>
+                    <strong style={{color: "black"}}>Technologies Used: </strong>Mailchimp API, Javascript, HTML, CSS, 
+                  </p>
+                 
                 </div>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4"></div>
