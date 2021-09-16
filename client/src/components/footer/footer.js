@@ -1,15 +1,6 @@
 import React from "react";
 import "../styles/footer.css";
-import instagram from "../images/instagram.png";
-import linkedin from "../images/linkedin.png";
-import github from "../images/github.png";
-import react from "../images/react.png";
-import nodejs from "../images/node.png";
-import html from "../images/html.png";
-import css from "../images/css.png";
-import jquery from "../images/jquery.png";
-import mongo from "../images/mongo.png";
-import EJS from "../images/EJS.png";
+
 
 function Footer() {
   return (

@@ -1,4 +1,3 @@
-import React, { useRef, useState, useEffect } from "react";
 import {Link} from 'react-scroll';
 import "../styles/nav.css";
 

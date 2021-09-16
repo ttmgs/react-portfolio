@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/cropme.png";
-import resume from "../images/resume.PDF";
+import resume from "../images/resume.PDF"
 import "./home.css";
 
 
