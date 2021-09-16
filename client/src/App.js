@@ -16,24 +16,10 @@ function App() {
 
 <div>
   <Nav />
-
-
-
 <Header />
     <About />
     <Projects />
-    
       <Footer />
-
-
-
-
-
-
-
-
-
-
   </div>
 
 
