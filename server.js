@@ -24,7 +24,3 @@ app.listen(PORT, function() {
 
 
 
-
-
-// custom domain name added and loading
-// react app works deployed
