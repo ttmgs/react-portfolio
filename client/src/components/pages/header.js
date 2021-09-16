@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/cropme.png";
-import resume from "../images/resume.PDF"
+// import resume from "../images/resume.PDF"
 import "./home.css";
 
 
@@ -20,12 +20,12 @@ function Header() {
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4" style={{color: "white"}}>Full Stack Web Developer from Windsor, ON</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <a
+          {/* <a
           class="btn line-btn-dark btn-icon btn-radius"
           href={resume}
           title=""
           download
-        >   <button type="submit" class="btn btn-primary btn-lg px-4 gap-3" style={{display: "block"}}>Click to Download resume</button></a>
+        >   <button type="submit" class="btn btn-primary btn-lg px-4 gap-3" style={{display: "block"}}>Click to Download resume</button></a> */}
           </div>
         </div>
       </div>
