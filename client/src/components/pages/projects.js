@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../styles/projects.css";
 import Wrapper from "../wrapper/wrapper";
 import newsletter from "../images/newsletter.png";
@@ -8,10 +8,17 @@ import planner from "../images/planner.png";
 import search from "../images/search.png";
 import simon from "../images/simon.png";
 import lizzy from "../images/lizzy.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Projects() {
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  }, [])
+
   return (
     <div>
+        <div data-aos="fade-left">
       <div id="projects">
         <div class="b-example-divider"></div>
         <h1 class="display-4 fw-bold" style={{color: "white"}}>Projects</h1>
@@ -250,6 +257,7 @@ function Projects() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

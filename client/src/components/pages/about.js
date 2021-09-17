@@ -1,26 +1,22 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./home.css";
 import grad from "../images/grad.png";
 import upei from "../images/upei.png";
 import mom from "../images/8.png";
 import me from "../images/me.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  }, [])
+
   return (
     <div>
 
-
-
-
-
-
-
-
-
-
-
-
+<div data-aos="fade-left">
 <div id="about" style={{backgroundColor: "black"}}>
 <div class="b-example-divider"></div>
     
@@ -62,6 +58,7 @@ function About() {
       </div>
     </div>
 </div>
+    </div>
     </div>
   );
 }

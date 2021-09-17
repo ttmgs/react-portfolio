@@ -1,15 +1,21 @@
-import React from "react";
+import React, {useEffect} from "react";
 import logo from "../images/cropme.png";
 // import resume from "../images/resume.PDF"
 import "./home.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
 function Header() {
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  }, [])
+
   return(
 
 
-
+    <div data-aos="flip-left">
 
     <div id="home">
 
@@ -28,6 +34,7 @@ function Header() {
         >   <button type="submit" class="btn btn-primary btn-lg px-4 gap-3" style={{display: "block"}}>Click to Download resume</button></a> */}
           </div>
         </div>
+      </div>
       </div>
       </div>
 
