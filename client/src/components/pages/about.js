@@ -29,6 +29,7 @@ function About() {
               deserves an opportunity. We are the ones that create our own
               reality, and we have so much power to do so</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <center>
         <img
               src={grad}
               alt="grad"
@@ -49,6 +50,7 @@ function About() {
               alt="grad"
               style={{ width: "140px", height: "140px", marginBottom: "15px" }}
             ></img>
+            </center>
         </div>
       </div>
       <div class="overflow-hidden" style={{maxHeight: "30vh"}}>
