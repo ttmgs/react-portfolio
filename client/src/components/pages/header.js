@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import logo from "../images/cropme.png";
-// import resume from "../images/resume.PDF"
 import "./home.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +14,7 @@ function Header() {
   return(
 
 
-    <div data-aos="flip-left">
+    <div data-aos="fade-right">
 
     <div id="home">
 
