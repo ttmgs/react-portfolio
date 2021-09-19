@@ -8,15 +8,17 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 
+
 function About() {
   useEffect(() => {
     Aos.init({ duration: 1000});
   }, [])
 
+
   return (
     <div>
 
-<div data-aos="fade-left">
+<div data-aos="zoom-in-down">
 <div id="about" style={{backgroundColor: "black"}}>
 <div class="b-example-divider"></div>
     

@@ -21,7 +21,11 @@ function Header() {
       <div class="px-4 py-5 my-5 text-center">
         
         <img class="d-block mx-auto mb-4" src={logo} alt="" width="300" height="300"/>
+        <div className="center">
+        <div className="typewriter">
         <h1 class="display-5 fw-bold" style={{color: "blue"}}> Magdi Tiea</h1>
+        </div>
+        </div>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4" style={{color: "white"}}>Full Stack Web Developer from Windsor, ON</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
