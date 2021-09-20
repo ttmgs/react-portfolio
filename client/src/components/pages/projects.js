@@ -18,7 +18,6 @@ function Projects() {
 
   return (
     <div>
-        <div data-aos="zoom-in-up">
       <div id="projects">
         <div class="b-example-divider"></div>
         <h1 class="display-4 fw-bold" style={{color: "white"}}>Projects</h1>
@@ -255,7 +254,6 @@ function Projects() {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
     </div>

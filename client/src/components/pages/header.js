@@ -7,14 +7,9 @@ import "aos/dist/aos.css";
 
 
 function Header() {
-  useEffect(() => {
-    Aos.init({ duration: 1000});
-  }, [])
 
+  
   return(
-
-
-    <div data-aos="fade-right">
 
     <div id="home">
 
@@ -37,7 +32,6 @@ function Header() {
         >   <button type="submit" class="btn btn-primary btn-lg px-4 gap-3" style={{display: "block"}}>Click to Download resume</button></a> */}
           </div>
         </div>
-      </div>
       </div>
       </div>
 
