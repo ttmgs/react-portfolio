@@ -12,7 +12,6 @@ function Footer() {
       <h1 class="display-5 fw-bold text-green">Contact</h1>
       <div class="col-lg-6 mx-auto">
         <p class="fs-5 mb-4" style={{color: "white"}}>
-          Phone Number- (226)-759-5872
           <br></br>
           Email- magditiea@gmail.com
           </p>

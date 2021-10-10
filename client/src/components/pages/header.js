@@ -22,7 +22,7 @@ function Header() {
         </div>
         </div>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4" style={{color: "white"}}>Full Stack Web Developer from Windsor, ON</p>
+          <p class="lead mb-4" style={{color: "white"}}>Full Stack Web Developer // React Native Developer In Training</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           {/* <a
           class="btn line-btn-dark btn-icon btn-radius"
