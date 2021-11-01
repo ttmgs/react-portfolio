@@ -22,7 +22,9 @@ function Header() {
         </div>
         </div>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4" style={{color: "white"}}>Full Stack Web Developer // React Native Developer In Training</p>
+          <p class="lead mb-4" style={{color: "white"}}>Full Stack Web Developer //<span style={{color: 'black'}}> React Native Developer In Training</span></p>
+       <a href="https://www.youtube.com/channel/UCrsmLM2oLKG89apiD3EaQgg"><i class="fa fa-youtube-play" style={{fontSize: '48px', color:'red'}}></i></a>
+
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           {/* <a
           class="btn line-btn-dark btn-icon btn-radius"
