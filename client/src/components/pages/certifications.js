@@ -5,9 +5,11 @@ import carlt from "../images/carlt.pdf"
 import carl from "../images/carl.png";
 import udemyW from "../images/udemyweb.pdf";
 import udemyP from "../images/udemy.png";
+import beginH from "../images/beginH.jpeg";
+import hackersE from "../images/hackersE.jpeg";
+
 
 const Certifications = () => {
-
   return (
 
     <div>
@@ -33,6 +35,21 @@ const Certifications = () => {
           download
         >  
         <img src={udemyP} alt="carl" style={{width: '300px', height: '100px'}}/> 
+        </a>
+        <a
+          class="btn line-btn-dark btn-icon btn-radius"
+          href={beginH}
+          title=""
+          download
+        >  
+        <img src={beginH} alt="carl" style={{width: '300px', height: '100px'}}/> 
+        </a> <a
+          class="btn line-btn-dark btn-icon btn-radius"
+          href={hackersE}
+          title=""
+          download
+        >  
+        <img src={hackersE} alt="carl" style={{width: '300px', height: '100px'}}/> 
         </a>
             {/* <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
               <center>
