@@ -4,7 +4,7 @@ This is my portfolio, here you will learn a little more about my coding backgrou
 ## Deployed
 https://ttmgs.github.io/react-portfolio/
 
-# Technologies User
+# Technologies Used
 - React
 - Jquery
 - HTML
