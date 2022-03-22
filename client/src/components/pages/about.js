@@ -35,13 +35,13 @@ function About() {
         <
         p class = "lead mb-4"
         style = {
-            { color: "white" } } > Came into this world not knowing the answers but trying to make a difference.We are the ones that create our own reality, and we have much power to do so < /p> <
-            div class = "d-grid gap-2 d-sm-flex justify-content-sm-center mb-5" >
-            <
-            center >
-            <
-            img
-        src = { grad }
+            { color: "white" } } > Focused and quick learning Full Stack Web Developer with 3 years of experience in computer science, programming, and UX design
+        for various projects. < /p> <
+        div class = "d-grid gap-2 d-sm-flex justify-content-sm-center mb-5" >
+        <
+        center >
+        <
+        img src = { grad }
         alt = "grad"
         style = {
             { width: "140px", height: "140px", marginBottom: "15px" } } >
