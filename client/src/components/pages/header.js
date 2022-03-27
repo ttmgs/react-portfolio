@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import logo from "../images/cropme.png";
 import resume from "../images/resume.pdf"
-import ap from "../images/ap.jpg";
+import ap from "../images/apcrop.png";
 import "./home.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
